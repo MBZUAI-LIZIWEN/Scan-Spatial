@@ -259,3 +259,35 @@ function updateScene(exampleType) {
     // 在实际应用中，这里会加载特定的模型
     // loadModelFromFile(`models/${exampleType}_example.glb`);
 }
+
+
+// 视频增强功能
+function setupVideoEnhancements() {
+    const video = document.getElementById('overview-video');
+    if (!video) return;
+    
+    // 添加自动暂停当视频滚出视口
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (!entry.isIntersecting && !video.paused) {
+                video.pause();
+            }
+        });
+    }, { threshold: 0.2 });
+    
+    observer.observe(video);
+    
+    // 当视频加载元数据后调整容器大小(如果需要)
+    video.addEventListener('loadedmetadata', function() {
+        const aspectRatio = this.videoWidth / this.videoHeight;
+        // 如果需要根据实际视频比例调整容器...
+    });
+}
+
+// 在 DOMContentLoaded 事件中调用
+document.addEventListener('DOMContentLoaded', function() {
+    // ... 现有代码 ...
+    
+    // 设置视频增强功能
+    setupVideoEnhancements();
+});
