@@ -45,8 +45,13 @@
                 <h2 class="section-title">Overview</h2>
                 <div class="overview-content">
                     <div class="video-container">
-                        <!-- 替换为你的视频链接 -->
-                        <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+                        <!-- 替换为本地视频 -->
+                        <video id="overview-video" controls preload="metadata" poster="images/video-poster.jpg">
+                            <source src="videos/overview-video.mp4" type="video/mp4">
+                            <source src="videos/overview-video.webm" type="video/webm">
+                            <source src="videos/overview-video.ogv" type="video/ogg">
+                            Your browser does not support HTML5 video.
+                        </video>
                     </div>
                     <div class="text-content">
                         <p>
