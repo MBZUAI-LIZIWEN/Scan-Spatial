@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ScanNet++ Spatial Reasoning</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- 引入 Google 字体 -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- 可选：添加 Font Awesome 图标 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">ScanNet++ Spatial Reasoning</div>
+            <ul class="nav-links">
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#dataset">Dataset</a></li>
+                <li><a href="#examples">Examples</a></li>
+                <li><a href="#benchmark">Benchmark</a></li>
+                <li><a href="#download">Download</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 主横幅 -->
+    <header class="hero">
+        <div class="container">
+            <h1>ScanNet++ Spatial Reasoning</h1>
+            <p class="subtitle">3D Vision-Language Spatial Understanding Benchmark</p>
+            <div class="cta-buttons">
+                <a href="#dataset" class="btn btn-primary">Explore Dataset</a>
+                <a href="#download" class="btn btn-secondary">Download</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 主要内容部分 -->
+    <main>
+        <!-- 概述部分 -->
+        <section id="overview" class="section">
+            <div class="container">
+                <h2 class="section-title">Overview</h2>
+                <div class="overview-content">
+                    <div class="video-container">
+                        <!-- 替换为你的视频链接 -->
+                        <iframe src="https://www.youtube.com/embed/your-video-id" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <div class="text-content">
+                        <p>
+                            <!-- 概述文本 -->
+                            Current methods using Large Language Models (LLMs) to understand 3D visual information 
+                            and generate segmentation prompts have not fully explored spatial reasoning capabilities. 
+                            This is due to a lack of high-quality datasets that test both reasoning and spatial understanding abilities.
+                        </p>
+                        <!-- 更多段落 -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 数据集部分 -->
+        <section id="dataset" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Dataset</h2>
+                <div class="stats-container">
+                    <!-- 数据集统计信息 -->
+                    <div class="stat-item">
+                        <div class="stat-number">1,000+</div>
+                        <div class="stat-label">3D Scenes</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">10,000+</div>
+                        <div class="stat-label">Text-Object Pairs</div>
+                    </div>
+                    <!-- 更多统计信息 -->
+                </div>
+                <div class="dataset-content">
+                    <h3>Key Features</h3>
+                    <ul class="features-list">
+                        <li>Text inputs as spatial reasoning questions</li>
+                        <li>3D object masks as answers</li>
+                        <li>Built on ScanNet++ scene collection</li>
+                        <!-- 更多特性 -->
+                    </ul>
+                    <!-- 数据集图表/图像 -->
+                    <div class="dataset-visual">
+                        <img src="images/dataset-overview.png" alt="Dataset Overview">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 示例浏览器部分 -->
+        <section id="examples" class="section">
+            <div class="container">
+                <h2 class="section-title">Examples Browser</h2>
+                <div class="examples-browser">
+                    <!-- 示例选择器 -->
+                    <div class="example-selector">
+                        <h3>Filter by Type</h3>
+                        <div class="filter-buttons">
+                            <button class="filter-btn active" data-filter="all">All</button>
+                            <button class="filter-btn" data-filter="relative-position">Relative Position</button>
+                            <button class="filter-btn" data-filter="containment">Containment</button>
+                            <button class="filter-btn" data-filter="distance">Distance</button>
+                            <!-- 更多过滤按钮 -->
+                        </div>
+                        <div class="examples-list">
+                            <!-- 示例列表项 -->
+                            <div class="example-item" data-type="relative-position">
+                                <div class="thumbnail">
+                                    <img src="images/examples/example1-thumb.jpg" alt="Example 1">
+                                </div>
+                                <div class="example-info">
+                                    <h4>Example 1</h4>
+                                    <p>Which object is on the left of the table?</p>
+                                </div>
+                            </div>
+                            <!-- 更多示例 -->
+                        </div>
+                    </div>
+                    <!-- 示例查看器 -->
+                    <div class="example-viewer">
+                        <div class="scene-container">
+                            <!-- 这里将放置 3D 查看器 -->
+                            <div id="3d-viewer"></div>
+                        </div>
+                        <div class="example-details">
+                            <div class="question-box">
+                                <h3>Question:</h3>
+                                <p id="current-question">Which object is on the left of the table?</p>
+                            </div>
+                            <div class="answer-box">
+                                <h3>Answer:</h3>
+                                <p id="current-answer">Chair (Object ID: 23)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 基准测试部分 -->
+        <section id="benchmark" class="section bg-light">
+            <div class="container">
+                <h2 class="section-title">Benchmark</h2>
+                <div class="benchmark-content">
+                    <h3>Evaluation Metrics</h3>
+                    <p>Description of how models are evaluated on this dataset.</p>
+                    <!-- 评估方法详情 -->
+                    
+                    <h3>Baseline Results</h3>
+                    <div class="results-table-container">
+                        <table class="results-table">
+                            <thead>
+                                <tr>
+                                    <th>Method</th>
+                                    <th>Accuracy</th>
+                                    <th>IoU</th>
+                                    <th>F1 Score</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Method 1</td>
+                                    <td>85.2%</td>
+                                    <td>0.72</td>
+                                    <td>0.80</td>
+                                </tr>
+                                <!-- 更多结果行 -->
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <h3>Challenge Cases</h3>
+                    <div class="challenge-cases">
+                        <!-- 挑战案例展示 -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 下载部分 -->
+        <section id="download" class="section">
+            <div class="container">
+                <h2 class="section-title">Download & Use</h2>
+                <div class="download-options">
+                    <div class="download-card">
+                        <h3>Complete Dataset</h3>
+                        <p>Full ScanNet++ Spatial Reasoning dataset with all annotations.</p>
+                        <p><strong>Size:</strong> 4.2 GB</p>
+                        <a href="#" class="btn btn-primary">Download</a>
+                    </div>
+                    <div class="download-card">
+                        <h3>Sample Version</h3>
+                        <p>Lightweight sample with 50 scenes for quick exploration.</p>
+                        <p><strong>Size:</strong> 500 MB</p>
+                        <a href="#" class="btn btn-secondary">Download Sample</a>
+                    </div>
+                    <div class="download-card">
+                        <h3>Code & Models</h3>
+                        <p>Evaluation code and baseline models.</p>
+                        <a href="https://github.com/your-repo" class="btn btn-secondary">
+                            <i class="fab fa-github"></i> GitHub Repo
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="usage-guide">
+                    <h3>Usage Guide</h3>
+                    <div class="code-block">
+                        <pre><code>
+# Example code for loading and using the dataset
+import json
+import numpy as np
+
+# Load dataset
+with open('spatial_reasoning_dataset.json', 'r') as f:
+    dataset = json.load(f)
+
+# Access a sample
+sample = dataset[0]
+question = sample['question']
+object_ids = sample['object_ids']
+
+print(f"Question: {question}")
+print(f"Answer object IDs: {object_ids}")
+                        </code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="citation-box">
+                    <h3>Citation</h3>
+                    <div class="code-block">
+                        <pre><code>
+@inproceedings{lastname2025scannet,
+    title={ScanNet++ Spatial Reasoning: A 3D Vision-Language Benchmark for Spatial Understanding},
+    author={Last Name, First Name and Co-authors},
+    booktitle={NeurIPS Dataset Track},
+    year={2025}
+}
+                        </code></pre>
+                    </div>
+                </div>
+                
+                <div class="contact-info">
+                    <h3>Contact</h3>
+                    <p>For questions about the dataset, please contact: <a href="mailto:your.email@university.edu">your.email@university.edu</a></p>
+                </div>
+            </div>
+            
+            <div class="institutions">
+                <img src="images/logo1.png" alt="University Logo">
+                <img src="images/logo2.png" alt="Research Lab Logo">
+            </div>
+            
+            <p class="copyright">© 2025 ScanNet++ Spatial Reasoning Team</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <!-- 如果需要 Three.js 或其他库，在这里添加 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.min.js"></script>
+</body>
+</html>
