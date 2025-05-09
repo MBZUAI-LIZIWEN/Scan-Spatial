@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/annotation.css">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/PLYLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/OBJLoader.js"></script>
+    <script>
+        // 声明全局函数，使其在 onclick 中可用
+        function deleteAnnotation(index) {
+            // 这个函数会被 app.js 中的实现覆盖
+            console.warn('deleteAnnotation not implemented');
+        }
+        
+        function viewAnnotation(index) {
+            // 这个函数会被 app.js 中的实现覆盖
+            console.warn('viewAnnotation not implemented');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="viewer-container">
+                <div id="viewer"></div>
+                <div class="annotation-input">
+                    <textarea id="description" placeholder="annotation description..."></textarea>
+                    <div class="button-group">
+                        <button id="add-annotation">Add annotation</button>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="file-list">
+                <h2>PLY</h2>
+                <ul id="ply-files">
+                    <li onclick="loadPlyFile('mesh_aligned_0.05.ply')">mesh_aligned_0.05.ply</li>
+                    <li onclick="loadPlyFile('example2.ply')">example2.ply</li>
+                    <li onclick="loadPlyFile('example3.ply')">example3.ply</li>
+                    <!-- 可以根据需要添加更多PLY文件 -->
+                </ul>
+            </div>
+        </div>
+        
+        <!-- 标注列表区域 -->
+        <div class="annotations-section">
+            <h2>Annotation List</h2>
+            <table id="annotations-table" class="annotations-table">
+                <thead>
+                    <tr>
+                        <th>Object ID</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="annotations-list">
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/annotation.js"></script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    padding: 20px;
+}
+
+.main-content {
+    display: flex;
+    height: 100%;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.viewer-container {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #eee;
+}
+
+#viewer {
+    flex: 1;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.annotation-input {
+    height: 150px;
+    padding: 15px;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    resize: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.button-group {
+    display: flex;
+    gap: 10px;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.file-list {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.file-list h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333;
+}
+
+#ply-files {
+    list-style: none;
+}
+
+#ply-files li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#ply-files li:hover {
+    background-color: #f9f9f9;
+}
+
+#ply-files li.active {
+    background-color: #e6f7e6;
+    font-weight: bold;
+}
+
+/* 对话框样式 */
+.dialog {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.dialog-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 600px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialog-content h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.dialog-body {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 15px;
+}
+
+#annotations-list {
+    list-style: none;
+}
+
+#annotations-list li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 5px;
+}
+
+.dialog-footer {
+    text-align: right;
+}
+
+
+.annotations-section {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.annotations-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.annotations-table th,
+.annotations-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.annotations-table th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
+
+.annotations-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+.view-btn, .delete-btn {
+    padding: 4px 8px;
+    margin: 0 4px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.view-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.view-btn:hover {
+    background-color: #45a049;
+}
+
+.delete-btn:hover {
+    background-color: #da190b;
+}
