@@ -1,0 +1,1414 @@
+{
+  "commonsense": [
+    {
+      "object_id": [
+        12,
+        13,
+        15,
+        56,
+        45
+      ],
+      "object_name": [
+        "hand soap",
+        "shampoo bottle",
+        "tooth paste",
+        "toothbrush",
+        "shower loofah"
+      ],
+      "description": "Which objects can be used for personal hygiene?"
+    },
+    {
+      "object_id": [
+        18,
+        19,
+        17,
+        37
+      ],
+      "object_name": [
+        "broom",
+        "dustpan",
+        "mop",
+        "toilet brush"
+      ],
+      "description": "What items are typically used for cleaning the bathroom?"
+    },
+    {
+      "object_id": [
+        53,
+        55,
+        7
+      ],
+      "object_name": [
+        "ceiling lamp",
+        "lamp",
+        "towel warmer"
+      ],
+      "description": "Which objects are electrical appliances?"
+    },
+    {
+      "object_id": [
+        28,
+        29
+      ],
+      "object_name": [
+        "towel",
+        "towel"
+      ],
+      "description": "What can be used to dry yourself after showering?"
+    },
+    {
+      "object_id": [
+        1,
+        12,
+        11,
+        56,
+        15
+      ],
+      "object_name": [
+        "tap",
+        "hand soap",
+        "toothbrush holder",
+        "toothbrush",
+        "tooth paste"
+      ],
+      "description": "Which objects are typically found near the sink?"
+    },
+    {
+      "object_id": [
+        56,
+        15,
+        11
+      ],
+      "object_name": [
+        "toothbrush",
+        "tooth paste",
+        "toothbrush holder"
+      ],
+      "description": "What items are used for oral care?"
+    },
+    {
+      "object_id": [
+        50,
+        30,
+        55
+      ],
+      "object_name": [
+        "power socket",
+        "light switch",
+        "lamp"
+      ],
+      "description": "Which objects should be kept away from water for safety?"
+    },
+    {
+      "object_id": [
+        41
+      ],
+      "object_name": [
+        "shower valve"
+      ],
+      "description": "What can be used to control water flow in the shower?"
+    },
+    {
+      "object_id": [
+        32,
+        33,
+        40,
+        10
+      ],
+      "object_name": [
+        "grab bar",
+        "grab bar",
+        "grab bar",
+        "bathroom mat"
+      ],
+      "description": "Which objects provide support or safety in the bathroom?"
+    },
+    {
+      "object_id": [
+        13
+      ],
+      "object_name": [
+        "shampoo bottle"
+      ],
+      "description": "What items are used for hair care?"
+    },
+    {
+      "object_id": [
+        56,
+        15,
+        12,
+        34
+      ],
+      "object_name": [
+        "toothbrush",
+        "tooth paste",
+        "hand soap",
+        "toilet paper"
+      ],
+      "description": "Which objects are typically used daily?"
+    },
+    {
+      "object_id": [
+        37
+      ],
+      "object_name": [
+        "toilet brush"
+      ],
+      "description": "What can be used to clean the toilet?"
+    },
+    {
+      "object_id": [
+        39,
+        4,
+        45,
+        13
+      ],
+      "object_name": [
+        "shower",
+        "shower curtain",
+        "shower loofah",
+        "shampoo bottle"
+      ],
+      "description": "Which objects are used for bathing?"
+    },
+    {
+      "object_id": [
+        18,
+        19,
+        17
+      ],
+      "object_name": [
+        "broom",
+        "dustpan",
+        "mop"
+      ],
+      "description": "What items are used for floor cleaning?"
+    },
+    {
+      "object_id": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "object_name": [
+        "jeans",
+        "jeans",
+        "trousers",
+        "pants",
+        "pants"
+      ],
+      "description": "Which objects are clothing items?"
+    },
+    {
+      "object_id": [
+        7
+      ],
+      "object_name": [
+        "towel warmer"
+      ],
+      "description": "What can be used to warm towels?"
+    },
+    {
+      "object_id": [
+        39,
+        4,
+        52,
+        41,
+        45
+      ],
+      "object_name": [
+        "shower",
+        "shower curtain",
+        "shower curtain rod",
+        "shower valve",
+        "shower loofah"
+      ],
+      "description": "Which objects are part of the shower area?"
+    },
+    {
+      "object_id": [
+        1,
+        8,
+        12
+      ],
+      "object_name": [
+        "tap",
+        "sink",
+        "hand soap"
+      ],
+      "description": "What items are used for washing hands?"
+    },
+    {
+      "object_id": [
+        52,
+        11
+      ],
+      "object_name": [
+        "shower curtain rod",
+        "toothbrush holder"
+      ],
+      "description": "What items can be used to support or organize other objects?"
+    },
+    {
+      "object_id": [
+        53,
+        55
+      ],
+      "object_name": [
+        "ceiling lamp",
+        "lamp"
+      ],
+      "description": "What provides lighting in the bathroom?"
+    },
+    {
+      "object_id": [
+        37,
+        34,
+        35
+      ],
+      "object_name": [
+        "toilet brush",
+        "toilet paper",
+        "flush button"
+      ],
+      "description": "Which objects are used for bathroom sanitation?"
+    },
+    {
+      "object_id": [
+        10
+      ],
+      "object_name": [
+        "bathroom mat"
+      ],
+      "description": "What can be used to prevent slipping in the bathroom?"
+    },
+    {
+      "object_id": [
+        45,
+        12,
+        13
+      ],
+      "object_name": [
+        "shower loofah",
+        "hand soap",
+        "shampoo bottle"
+      ],
+      "description": "Which objects are used for body cleaning?"
+    },
+    {
+      "object_id": [
+        34,
+        15,
+        12
+      ],
+      "object_name": [
+        "toilet paper",
+        "tooth paste",
+        "hand soap"
+      ],
+      "description": "What items are typically replaced frequently?"
+    },
+    {
+      "object_id": [
+        8,
+        9
+      ],
+      "object_name": [
+        "sink",
+        "toilet"
+      ],
+      "description": "Which objects are used for water drainage?"
+    },
+    {
+      "object_id": [
+        11
+      ],
+      "object_name": [
+        "toothbrush holder"
+      ],
+      "description": "What can be used to store toiletries?"
+    },
+    {
+      "object_id": [
+        7,
+        28,
+        29
+      ],
+      "object_name": [
+        "towel warmer",
+        "towel",
+        "towel"
+      ],
+      "description": "Which objects are used for drying items?"
+    },
+    {
+      "object_id": [
+        10
+      ],
+      "object_name": [
+        "bathroom mat"
+      ],
+      "description": "What items are used for floor protection?"
+    },
+    {
+      "object_id": [
+        4,
+        28,
+        29,
+        10
+      ],
+      "object_name": [
+        "shower curtain",
+        "towel",
+        "towel",
+        "bathroom mat"
+      ],
+      "description": "Which objects are typically made of fabric?"
+    },
+    {
+      "object_id": [
+        30
+      ],
+      "object_name": [
+        "light switch"
+      ],
+      "description": "What can be used to control lighting?"
+    },
+    {
+      "object_id": [
+        9
+      ],
+      "object_name": [
+        "toilet"
+      ],
+      "description": "Which objects are used for waste disposal?"
+    },
+    {
+      "object_id": [
+        56,
+        15,
+        12
+      ],
+      "object_name": [
+        "toothbrush",
+        "tooth paste",
+        "hand soap"
+      ],
+      "description": "What items are used for personal grooming?"
+    },
+    {
+      "object_id": [
+        32,
+        33,
+        40,
+        11,
+        7
+      ],
+      "object_name": [
+        "grab bar",
+        "grab bar",
+        "grab bar",
+        "toothbrush holder",
+        "towel warmer"
+      ],
+      "description": "Which objects are typically mounted on walls?"
+    },
+    {
+      "object_id": [
+        18,
+        19,
+        17
+      ],
+      "object_name": [
+        "broom",
+        "dustpan",
+        "mop"
+      ],
+      "description": "What can be used to clean floors?"
+    },
+    {
+      "object_id": [
+        1,
+        41
+      ],
+      "object_name": [
+        "tap",
+        "shower valve"
+      ],
+      "description": "Which objects are used for water supply?"
+    },
+    {
+      "object_id": [
+        39,
+        4,
+        45,
+        13
+      ],
+      "object_name": [
+        "shower",
+        "shower curtain",
+        "shower loofah",
+        "shampoo bottle"
+      ],
+      "description": "What items are used for showering?"
+    },
+    {
+      "object_id": [
+        37,
+        45,
+        11
+      ],
+      "object_name": [
+        "toilet brush",
+        "shower loofah",
+        "toothbrush holder"
+      ],
+      "description": "Which objects are typically plastic?"
+    },
+    {
+      "object_id": [
+        35
+      ],
+      "object_name": [
+        "flush button"
+      ],
+      "description": "What can be used to flush the toilet?"
+    },
+    {
+      "object_id": [
+        28,
+        29
+      ],
+      "object_name": [
+        "towel",
+        "towel"
+      ],
+      "description": "Which objects are used for drying hands?"
+    },
+    {
+      "object_id": [
+        18,
+        19,
+        17,
+        37
+      ],
+      "object_name": [
+        "broom",
+        "dustpan",
+        "mop",
+        "toilet brush"
+      ],
+      "description": "What items are used for cleaning tools?"
+    },
+    {
+      "object_id": [
+        34,
+        37,
+        35
+      ],
+      "object_name": [
+        "toilet paper",
+        "toilet brush",
+        "flush button"
+      ],
+      "description": "Which objects are typically found near the toilet?"
+    },
+    {
+      "object_id": [
+        52
+      ],
+      "object_name": [
+        "shower curtain rod"
+      ],
+      "description": "What can be used to hang shower curtains?"
+    },
+    {
+      "object_id": [
+        28,
+        29
+      ],
+      "object_name": [
+        "towel",
+        "towel"
+      ],
+      "description": "Which objects are used for body drying?"
+    },
+    {
+      "object_id": [
+        11,
+        52
+      ],
+      "object_name": [
+        "toothbrush holder",
+        "shower curtain rod"
+      ],
+      "description": "What items are used for bathroom organization?"
+    },
+    {
+      "object_id": [
+        8,
+        9
+      ],
+      "object_name": [
+        "sink",
+        "toilet"
+      ],
+      "description": "Which objects are typically ceramic?"
+    },
+    {
+      "object_id": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "object_name": [
+        "jeans",
+        "jeans",
+        "trousers",
+        "pants",
+        "pants"
+      ],
+      "description": "Which items are considered clothing?"
+    },
+    {
+      "object_id": [
+        54
+      ],
+      "object_name": [
+        "window"
+      ],
+      "description": "Which objects are used for bathroom ventilation?"
+    },
+    {
+      "object_id": [
+        39
+      ],
+      "object_name": [
+        "shower"
+      ],
+      "description": "What items are used for shower drainage?"
+    },
+    {
+      "object_id": [
+        1,
+        41,
+        52
+      ],
+      "object_name": [
+        "tap",
+        "shower valve",
+        "shower curtain rod"
+      ],
+      "description": "Which objects are typically metal?"
+    },
+    {
+      "object_id": [
+        56,
+        15
+      ],
+      "object_name": [
+        "toothbrush",
+        "tooth paste"
+      ],
+      "description": "What can be used to clean teeth?"
+    },
+    {
+      "object_id": [
+        53,
+        55
+      ],
+      "object_name": [
+        "ceiling lamp",
+        "lamp"
+      ],
+      "description": "Which objects are used for bathroom lighting?"
+    },
+    {
+      "object_id": [
+        4,
+        52
+      ],
+      "object_name": [
+        "shower curtain",
+        "shower curtain rod"
+      ],
+      "description": "What items are used for shower enclosure?"
+    },
+    {
+      "object_id": [
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29
+      ],
+      "object_name": [
+        "jeans",
+        "jeans",
+        "trousers",
+        "pants",
+        "pants",
+        "towel",
+        "towel"
+      ],
+      "description": "Which objects are typically found in a laundry basket?"
+    },
+    {
+      "object_id": [
+        13,
+        39
+      ],
+      "object_name": [
+        "shampoo bottle",
+        "shower"
+      ],
+      "description": "What can be used to wash hair?"
+    },
+    {
+      "object_id": [
+        32,
+        33,
+        40,
+        10
+      ],
+      "object_name": [
+        "grab bar",
+        "grab bar",
+        "grab bar",
+        "bathroom mat"
+      ],
+      "description": "Which objects are used for bathroom safety?"
+    },
+    {
+      "object_id": [
+        18,
+        19,
+        17,
+        37
+      ],
+      "object_name": [
+        "broom",
+        "dustpan",
+        "mop",
+        "toilet brush"
+      ],
+      "description": "What items are used for bathroom cleaning?"
+    },
+    {
+      "object_id": [
+        56,
+        15
+      ],
+      "object_name": [
+        "toothbrush",
+        "tooth paste"
+      ],
+      "description": "Which objects are typically used before bedtime?"
+    },
+    {
+      "object_id": [
+        7
+      ],
+      "object_name": [
+        "towel warmer"
+      ],
+      "description": "What can be used to hang towels?"
+    },
+    {
+      "object_id": [
+        1,
+        41
+      ],
+      "object_name": [
+        "tap",
+        "shower valve"
+      ],
+      "description": "Which objects are used for water control?"
+    },
+    {
+      "object_id": [
+        12,
+        13,
+        45
+      ],
+      "object_name": [
+        "hand soap",
+        "shampoo bottle",
+        "shower loofah"
+      ],
+      "description": "What items are used for body washing?"
+    }
+  ],
+  "human_intention": [
+    {
+      "object_id": [
+        1,
+        8
+      ],
+      "object_name": [
+        "tap",
+        "sink"
+      ],
+      "description": "Where can I find something to drink?"
+    },
+    {
+      "object_id": [
+        8,
+        12
+      ],
+      "object_name": [
+        "sink",
+        "hand soap"
+      ],
+      "description": "I need to wash my hands, where should I go?"
+    },
+    {
+      "object_id": [
+        39,
+        41,
+        45,
+        13
+      ],
+      "object_name": [
+        "shower",
+        "shower valve",
+        "shower loofah",
+        "shampoo bottle"
+      ],
+      "description": "I want to take a shower, what should I use?"
+    },
+    {
+      "object_id": [
+        56,
+        15,
+        11
+      ],
+      "object_name": [
+        "toothbrush",
+        "tooth paste",
+        "toothbrush holder"
+      ],
+      "description": "I need to brush my teeth, what should I grab?"
+    },
+    {
+      "object_id": [
+        17,
+        18,
+        19
+      ],
+      "object_name": [
+        "mop",
+        "broom",
+        "dustpan"
+      ],
+      "description": "I want to clean the floor, what tools can I use?"
+    },
+    {
+      "object_id": [
+        9,
+        34,
+        35
+      ],
+      "object_name": [
+        "toilet",
+        "toilet paper",
+        "flush button"
+      ],
+      "description": "I need to use the toilet, where should I go?"
+    },
+    {
+      "object_id": [
+        7,
+        29,
+        28
+      ],
+      "object_name": [
+        "towel warmer",
+        "towel",
+        "towel"
+      ],
+      "description": "I want to hang my wet towel, where can I put it?"
+    },
+    {
+      "object_id": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "object_name": [
+        "jeans",
+        "jeans",
+        "trousers",
+        "pants",
+        "pants"
+      ],
+      "description": "What should I gather to wash my clothes?"
+    },
+    {
+      "object_id": [
+        29,
+        28
+      ],
+      "object_name": [
+        "towel",
+        "towel"
+      ],
+      "description": "I want to dry my hair, what can I use?"
+    },
+    {
+      "object_id": [
+        37
+      ],
+      "object_name": [
+        "toilet brush"
+      ],
+      "description": "I need to clean the toilet, what tool should I use?"
+    },
+    {
+      "object_id": [
+        23,
+        24,
+        25,
+        26,
+        27
+      ],
+      "object_name": [
+        "jeans",
+        "jeans",
+        "trousers",
+        "pants",
+        "pants"
+      ],
+      "description": "What clothes can I wear to change?"
+    },
+    {
+      "object_id": [
+        45,
+        13,
+        12
+      ],
+      "object_name": [
+        "shower loofah",
+        "shampoo bottle",
+        "hand soap"
+      ],
+      "description": "I need to wash my body, what should I use?"
+    },
+    {
+      "object_id": [
+        30
+      ],
+      "object_name": [
+        "light switch"
+      ],
+      "description": "I want to turn on the lights, what should I press?"
+    },
+    {
+      "object_id": [
+        50
+      ],
+      "object_name": [
+        "power socket"
+      ],
+      "description": "I need to charge my phone, where can I plug it in?"
+    },
+    {
+      "object_id": [
+        45,
+        17
+      ],
+      "object_name": [
+        "shower loofah",
+        "mop"
+      ],
+      "description": "I want to clean the shower, what tools can I use?"
+    },
+    {
+      "object_id": [
+        29,
+        28
+      ],
+      "object_name": [
+        "towel",
+        "towel"
+      ],
+      "description": "I need to wipe the sink, what can I use?"
+    },
+    {
+      "object_id": [
+        52,
+        4
+      ],
+      "object_name": [
+        "shower curtain rod",
+        "shower curtain"
+      ],
+      "description": "I want to hang the shower curtain, where should I place it?"
+    },
+    {
+      "object_id": [
+        23,
+        24
+      ],
+      "object_name": [
+        "jeans",
+        "jeans"
+      ],
+      "description": "What supplies are essential for laundering denim trousers?"
+    },
+    {
+      "object_id": [
+        10,
+        32,
+        33,
+        40
+      ],
+      "object_name": [
+        "bathroom mat",
+        "grab bar",
+        "grab bar",
+        "grab bar"
+      ],
+      "description": "I want to prevent slipping when getting out of the shower, what can I use?"
+    },
+    {
+      "object_id": [
+        11
+      ],
+      "object_name": [
+        "toothbrush holder"
+      ],
+      "description": "I need to store my toothbrush, where should I put it?"
+    },
+    {
+      "object_id": [
+        41
+      ],
+      "object_name": [
+        "shower valve"
+      ],
+      "description": "I want to adjust the water temperature in the shower, what should I use?"
+    },
+    {
+      "object_id": [
+        17,
+        29,
+        28
+      ],
+      "object_name": [
+        "mop",
+        "towel",
+        "towel"
+      ],
+      "description": "I need to clean up spilled liquid, what tools can I use?"
+    },
+    {
+      "object_id": [
+        8,
+        1
+      ],
+      "object_name": [
+        "sink",
+        "tap"
+      ],
+      "description": "I want to wash my face, where should I go?"
+    },
+    {
+      "object_id": [
+        25
+      ],
+      "object_name": [
+        "trousers"
+      ],
+      "description": "I need to hang my trousers, where can I put them?"
+    },
+    {
+      "object_id": [
+        29,
+        28
+      ],
+      "object_name": [
+        "towel",
+        "towel"
+      ],
+      "description": "I want to dry my hands, what can I use?"
+    },
+    {
+      "object_id": [
+        29,
+        28
+      ],
+      "object_name": [
+        "towel",
+        "towel"
+      ],
+      "description": "I need to clean the mirror, what can I use?"
+    },
+    {
+      "object_id": [
+        26,
+        27
+      ],
+      "object_name": [
+        "pants",
+        "pants"
+      ],
+      "description": "I want to take off my pants, where can I put them?"
+    },
+    {
+      "object_id": [
+        13,
+        39
+      ],
+      "object_name": [
+        "shampoo bottle",
+        "shower"
+      ],
+      "description": "I need to wash my hair, what should I use?"
+    },
+    {
+      "object_id": [
+        39
+      ],
+      "object_name": [
+        "shower"
+      ],
+      "description": "I want to relax in warm water, what should I use?"
+    },
+    {
+      "object_id": [
+        13
+      ],
+      "object_name": [
+        "shampoo bottle"
+      ],
+      "description": "What should I use to keep my shampoo organized?"
+    },
+    {
+      "object_id": [
+        45,
+        17
+      ],
+      "object_name": [
+        "shower loofah",
+        "mop"
+      ],
+      "description": "I want to clean the bathtub, what tools can I use?"
+    },
+    {
+      "object_id": [
+        4
+      ],
+      "object_name": [
+        "shower curtain"
+      ],
+      "description": "I need to change my shower curtain, what should I remove?"
+    },
+    {
+      "object_id": [
+        18,
+        17,
+        19
+      ],
+      "object_name": [
+        "broom",
+        "mop",
+        "dustpan"
+      ],
+      "description": "What cleaning tools are available for organizing?"
+    },
+    {
+      "object_id": [
+        25
+      ],
+      "object_name": [
+        "trousers"
+      ],
+      "description": "What do I need to wear on my legs?"
+    },
+    {
+      "object_id": [
+        45
+      ],
+      "object_name": [
+        "shower loofah"
+      ],
+      "description": "I want to scrub my back in the shower, what can I use?"
+    },
+    {
+      "object_id": [
+        23,
+        24
+      ],
+      "object_name": [
+        "jeans",
+        "jeans"
+      ],
+      "description": "I need to dry my jeans, where can I hang them?"
+    },
+    {
+      "object_id": [
+        37
+      ],
+      "object_name": [
+        "toilet brush"
+      ],
+      "description": "I want to clean the toilet bowl, what should I use?"
+    },
+    {
+      "object_id": [
+        26,
+        27
+      ],
+      "object_name": [
+        "pants",
+        "pants"
+      ],
+      "description": "I need to wash my pants, where should I put them?"
+    },
+    {
+      "object_id": [
+        41
+      ],
+      "object_name": [
+        "shower valve"
+      ],
+      "description": "I want to turn on the shower, what should I use?"
+    },
+    {
+      "object_id": [
+        7,
+        29,
+        28
+      ],
+      "object_name": [
+        "towel warmer",
+        "towel",
+        "towel"
+      ],
+      "description": "I need to store my towels, where can I put them?"
+    },
+    {
+      "object_id": [
+        12,
+        29
+      ],
+      "object_name": [
+        "hand soap",
+        "towel"
+      ],
+      "description": "I want to clean the sink, what tools can I use?"
+    },
+    {
+      "object_id": [
+        23,
+        24
+      ],
+      "object_name": [
+        "jeans",
+        "jeans"
+      ],
+      "description": "I need to hang my wet jeans, where can I put them?"
+    },
+    {
+      "object_id": [
+        45,
+        12
+      ],
+      "object_name": [
+        "shower loofah",
+        "hand soap"
+      ],
+      "description": "I want to wash my body with soap, what should I use?"
+    },
+    {
+      "object_id": [
+        25
+      ],
+      "object_name": [
+        "trousers"
+      ],
+      "description": "I need to dry my trousers, where can I hang them?"
+    },
+    {
+      "object_id": [
+        17,
+        18,
+        19,
+        37
+      ],
+      "object_name": [
+        "mop",
+        "broom",
+        "dustpan",
+        "toilet brush"
+      ],
+      "description": "I want to clean the bathroom, what tools should I gather?"
+    },
+    {
+      "object_id": [
+        45
+      ],
+      "object_name": [
+        "shower loofah"
+      ],
+      "description": "I need to wash my shower loofah, where should I put it?"
+    },
+    {
+      "object_id": [
+        26,
+        27
+      ],
+      "object_name": [
+        "pants",
+        "pants"
+      ],
+      "description": "I want to dry my pants, where can I hang them?"
+    },
+    {
+      "object_id": [
+        34
+      ],
+      "object_name": [
+        "toilet paper"
+      ],
+      "description": "I need to store my toilet paper, where should I put it?"
+    },
+    {
+      "object_id": [
+        8,
+        23,
+        24
+      ],
+      "object_name": [
+        "sink",
+        "jeans",
+        "jeans"
+      ],
+      "description": "What do I need to clean clothing items by hand?"
+    },
+    {
+      "object_id": [
+        45,
+        17
+      ],
+      "object_name": [
+        "shower loofah",
+        "mop"
+      ],
+      "description": "I need to clean the shower walls, what can I use?"
+    },
+    {
+      "object_id": [
+        25
+      ],
+      "object_name": [
+        "trousers"
+      ],
+      "description": "What can I wear on my legs?"
+    },
+    {
+      "object_id": [
+        8,
+        1
+      ],
+      "object_name": [
+        "sink",
+        "tap"
+      ],
+      "description": "I need to wash my face with clean water, what should I use?"
+    },
+    {
+      "object_id": [
+        11,
+        15
+      ],
+      "object_name": [
+        "toothbrush holder",
+        "tooth paste"
+      ],
+      "description": "I want to store my toothbrush and toothpaste together, where should I put them?"
+    },
+    {
+      "object_id": [
+        45
+      ],
+      "object_name": [
+        "shower loofah"
+      ],
+      "description": "I need to dry my shower loofah, where should I put it?"
+    },
+    {
+      "object_id": [
+        23,
+        24
+      ],
+      "object_name": [
+        "jeans",
+        "jeans"
+      ],
+      "description": "How should I maintain my denim pants?"
+    },
+    {
+      "object_id": [
+        8,
+        25
+      ],
+      "object_name": [
+        "sink",
+        "trousers"
+      ],
+      "description": "I need to wash my trousers by hand, where should I do it?"
+    },
+    {
+      "object_id": [
+        26,
+        27
+      ],
+      "object_name": [
+        "pants",
+        "pants"
+      ],
+      "description": "I want to organize my pants, where can I put them?"
+    },
+    {
+      "object_id": [
+        29,
+        28
+      ],
+      "object_name": [
+        "towel",
+        "towel"
+      ],
+      "description": "I need to dry my body after showering, what can I use?"
+    },
+    {
+      "object_id": [
+        25
+      ],
+      "object_name": [
+        "trousers"
+      ],
+      "description": "What clothing item do I need for a formal event?"
+    },
+    {
+      "object_id": [
+        8,
+        12
+      ],
+      "object_name": [
+        "sink",
+        "hand soap"
+      ],
+      "description": "I need to wash my hands thoroughly, what should I use?"
+    }
+  ]
+}

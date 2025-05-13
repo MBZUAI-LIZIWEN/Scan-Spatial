@@ -1,0 +1,1100 @@
+{
+  "abs_annotations": [
+    {
+      "object_id": [
+        10,
+        33
+      ],
+      "object_name": [
+        "bathroom mat",
+        "grab bar"
+      ],
+      "description": "A grab bar that is 1.15 meters away from the bathroom mat",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        10,
+        32
+      ],
+      "object_name": [
+        "bathroom mat",
+        "grab bar"
+      ],
+      "description": "A grab bar that is 1.37 meters away from the bathroom mat",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        19,
+        33
+      ],
+      "object_name": [
+        "dustpan",
+        "grab bar"
+      ],
+      "description": "An object used for support that is 1.74 meters away from the dustpan",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        19,
+        32
+      ],
+      "object_name": [
+        "dustpan",
+        "grab bar"
+      ],
+      "description": "A grab bar that is 2.17 meters away from the dustpan",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        8,
+        33
+      ],
+      "object_name": [
+        "sink",
+        "grab bar"
+      ],
+      "description": "A grab bar that is 1.1 meters away from the sink",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        8,
+        32
+      ],
+      "object_name": [
+        "sink",
+        "grab bar"
+      ],
+      "description": "An object for support that is 1.69 meters away from the sink",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        13,
+        33
+      ],
+      "object_name": [
+        "shampoo bottle",
+        "grab bar"
+      ],
+      "description": "A grab bar that is 1.7 meters away from the shampoo bottle",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        13,
+        32
+      ],
+      "object_name": [
+        "shampoo bottle",
+        "grab bar"
+      ],
+      "description": "A grab bar that is 2.25 meters away from the shampoo bottle",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        12,
+        33
+      ],
+      "object_name": [
+        "hand soap",
+        "grab bar"
+      ],
+      "description": "A grab bar that is 1.8 meters away from the hand soap",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        12,
+        32
+      ],
+      "object_name": [
+        "hand soap",
+        "grab bar"
+      ],
+      "description": "An object for gripping that is 2.36 meters away from the hand soap",
+      "question_type": "abs_dis"
+    }
+  ],
+  "rel_annotations": [
+    {
+      "object_id": [
+        8
+      ],
+      "object_name": [
+        "sink"
+      ],
+      "description": "Directly ahead when entering with back to the door is an object used for washing",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        8
+      ],
+      "object_name": [
+        "sink"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), directly ahead is an object used for washing",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        1
+      ],
+      "object_name": [
+        "tap"
+      ],
+      "description": "Directly ahead when entering with back to the door is an object used for water output",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        1
+      ],
+      "object_name": [
+        "tap"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), directly ahead is an object used for water output",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        17
+      ],
+      "object_name": [
+        "mop"
+      ],
+      "description": "Directly ahead when entering with back to the door is an object used for mopping",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        17
+      ],
+      "object_name": [
+        "mop"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), directly ahead is an object used for mopping",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        18
+      ],
+      "object_name": [
+        "broom"
+      ],
+      "description": "Directly ahead when entering with back to the door is an object used for sweeping trash",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        18
+      ],
+      "object_name": [
+        "broom"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), directly ahead is an object used for sweeping trash",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "dustpan"
+      ],
+      "description": "Directly ahead when entering with back to the door is a green object",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "dustpan"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), directly ahead is a green object",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        10
+      ],
+      "object_name": [
+        "bathroom mat"
+      ],
+      "description": "Directly ahead when entering with back to the door is an object used for stepping on",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        10
+      ],
+      "object_name": [
+        "bathroom mat"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), directly ahead is an object used for stepping on",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        28
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "On the left side when entering with back to the door is a pink object",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        28
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), on the left side is a pink object",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        7
+      ],
+      "object_name": [
+        "towel warmer"
+      ],
+      "description": "On the left side when entering with back to the door is an object used for heating",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        7
+      ],
+      "object_name": [
+        "towel warmer"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), on the left side is an object used for heating",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        9
+      ],
+      "object_name": [
+        "toilet"
+      ],
+      "description": "On the right side when entering with back to the door is an object used for toileting",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        9
+      ],
+      "object_name": [
+        "toilet"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), on the right side is an object used for toileting",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        28,
+        29
+      ],
+      "object_name": [
+        "towel",
+        "towel"
+      ],
+      "description": "On the left side when entering with back to the door are objects used for drying",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        28,
+        29
+      ],
+      "object_name": [
+        "towel",
+        "towel"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), on the left side are objects used for drying",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        37
+      ],
+      "object_name": [
+        "toilet brush"
+      ],
+      "description": "At the lower right when entering with back to the door is an object used for scrubbing the toilet",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        37
+      ],
+      "object_name": [
+        "toilet brush"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), at the lower right is an object used for scrubbing the toilet",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        38
+      ],
+      "object_name": [
+        "object"
+      ],
+      "description": "At the lower right when entering with back to the door is a green object",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        38
+      ],
+      "object_name": [
+        "object"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), at the lower right is a green object",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        35
+      ],
+      "object_name": [
+        "flush button"
+      ],
+      "description": "On the left side when entering with back to the door is an object used for flushing",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        35
+      ],
+      "object_name": [
+        "flush button"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), on the left side is an object used for flushing",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        29
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "On the left side when entering with back to the door is a gray object",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        29
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), on the left side is a gray object",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        53
+      ],
+      "object_name": [
+        "ceiling lamp"
+      ],
+      "description": "Directly above when entering with back to the door is an object used for lighting",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        53
+      ],
+      "object_name": [
+        "ceiling lamp"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), directly above is an object used for lighting",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        4
+      ],
+      "object_name": [
+        "shower curtain"
+      ],
+      "description": "Upon entering with your back to the door, the object directly ahead used for blocking water",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        4
+      ],
+      "object_name": [
+        "shower curtain"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), the object directly ahead used for blocking water",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        39
+      ],
+      "object_name": [
+        "shower"
+      ],
+      "description": "Upon entering with your back to the door, the object to the front right used for washing",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        39
+      ],
+      "object_name": [
+        "shower"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), the object to the front right used for washing",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        24,
+        25,
+        23
+      ],
+      "object_name": [
+        "jeans",
+        "trousers",
+        "jeans"
+      ],
+      "description": "Upon entering with your back to the door, the objects hanging on the door directly behind",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        24,
+        25,
+        23
+      ],
+      "object_name": [
+        "jeans",
+        "trousers",
+        "jeans"
+      ],
+      "description": "At view (-0.04, -1.96, 1.14, -0.49, -0.87, 0.09), the objects hanging on the door directly behind",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        8
+      ],
+      "object_name": [
+        "sink"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the object to the front right used for washing",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        8
+      ],
+      "object_name": [
+        "sink"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the object to the front right used for washing",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        1
+      ],
+      "object_name": [
+        "tap"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the object on the right side used for water output",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        1
+      ],
+      "object_name": [
+        "tap"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the object on the right side used for water output",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        17
+      ],
+      "object_name": [
+        "mop"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the object to the front right used for mopping",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        17
+      ],
+      "object_name": [
+        "mop"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the object to the front right used for mopping",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        18
+      ],
+      "object_name": [
+        "broom"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the object to the front right used for sweeping away trash",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        18
+      ],
+      "object_name": [
+        "broom"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the object to the front right used for sweeping away trash",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "dustpan"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the green object to the front right",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "dustpan"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the green object to the front right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        10
+      ],
+      "object_name": [
+        "bathroom mat"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the object to the front right used for stepping on",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        10
+      ],
+      "object_name": [
+        "bathroom mat"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the object to the front right used for stepping on",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        28
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the pink object directly ahead",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        28
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the pink object directly ahead",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        7
+      ],
+      "object_name": [
+        "towel warmer"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the object directly ahead used for providing warmth",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        7
+      ],
+      "object_name": [
+        "towel warmer"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the object directly ahead used for providing warmth",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        34
+      ],
+      "object_name": [
+        "toilet paper"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the object to the rear left used for drying",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        34
+      ],
+      "object_name": [
+        "toilet paper"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the object to the rear left used for drying",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        37
+      ],
+      "object_name": [
+        "toilet brush"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the object to the rear left used for scrubbing the toilet",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        37
+      ],
+      "object_name": [
+        "toilet brush"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the object to the rear left used for scrubbing the toilet",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        38
+      ],
+      "object_name": [
+        "object"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the green object to the rear left",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        38
+      ],
+      "object_name": [
+        "object"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the green object to the rear left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        40
+      ],
+      "object_name": [
+        "grab bar"
+      ],
+      "description": "With your back to the toilet facing the pink checkered towel, the object on the right side used for washing",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        40
+      ],
+      "object_name": [
+        "grab bar"
+      ],
+      "description": "At view (1.44, -1.51, -2.11, 0.89, -0.43, 0.15), the object on the right side used for washing",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        8
+      ],
+      "object_name": [
+        "sink"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object on the left used for washing",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        13
+      ],
+      "object_name": [
+        "shampoo bottle"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object on the left used for dispensing water",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        17
+      ],
+      "object_name": [
+        "mop"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object on the left used for mopping",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        18
+      ],
+      "object_name": [
+        "broom"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object on the left used for sweeping trash",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "dustpan"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the green object on the left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        10
+      ],
+      "object_name": [
+        "bathroom mat"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object below used for stepping on",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        28
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the pink object on the right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        7
+      ],
+      "object_name": [
+        "towel warmer"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object on the right used for heating",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        9
+      ],
+      "object_name": [
+        "toilet"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object in front right used for using the toilet",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        34
+      ],
+      "object_name": [
+        "toilet paper"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object in front right used for drying",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        37
+      ],
+      "object_name": [
+        "toilet brush"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object in front right used for scrubbing the toilet",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        38
+      ],
+      "object_name": [
+        "object"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the green object in front right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        35
+      ],
+      "object_name": [
+        "flush button"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object in front right used for flushing water",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        53
+      ],
+      "object_name": [
+        "ceiling lamp"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object above used for lighting",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        4
+      ],
+      "object_name": [
+        "shower curtain"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object in front used for blocking water",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        40
+      ],
+      "object_name": [
+        "grab bar"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object in front left used for rinsing",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        13
+      ],
+      "object_name": [
+        "shampoo bottle"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the blue object on the sink on the left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        15
+      ],
+      "object_name": [
+        "tooth paste"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the object on the sink on the left used for brushing teeth",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        24,
+        25,
+        26,
+        23
+      ],
+      "object_name": [
+        "jeans",
+        "trousers",
+        "pants",
+        "jeans"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), multiple garments hanging on the door on the right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        29
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "At view (-2.26, -1.79, -0.93, -0.93, 0.35, 0.11), the gray object on the heater on the left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        29
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "the gray object on the heater",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        24,
+        25,
+        23
+      ],
+      "object_name": [
+        "jeans",
+        "trousers",
+        "jeans"
+      ],
+      "description": "multiple clothing items hanging on the door",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        11
+      ],
+      "object_name": [
+        "toothbrush holder"
+      ],
+      "description": "an object on the sink used for holding toothbrushes",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        13
+      ],
+      "object_name": [
+        "shampoo bottle"
+      ],
+      "description": "the blue object on the sink",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        38
+      ],
+      "object_name": [
+        "object"
+      ],
+      "description": "the green object below the toilet",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        34
+      ],
+      "object_name": [
+        "toilet paper"
+      ],
+      "description": "an object beside the toilet used for drying",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        35
+      ],
+      "object_name": [
+        "flush button"
+      ],
+      "description": "the object on the toilet used for flushing",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        32,
+        33
+      ],
+      "object_name": [
+        "grab bar",
+        "grab bar"
+      ],
+      "description": "two support rails beside the toilet",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        17
+      ],
+      "object_name": [
+        "mop"
+      ],
+      "description": "the object below the sink used for mopping",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        18
+      ],
+      "object_name": [
+        "broom"
+      ],
+      "description": "a cleaning tool below the sink used for sweeping",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "dustpan"
+      ],
+      "description": "green object below the sink",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        28
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "pink object above the heater",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        37
+      ],
+      "object_name": [
+        "toilet brush"
+      ],
+      "description": "object next to the toilet used for cleaning",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        9
+      ],
+      "object_name": [
+        "toilet"
+      ],
+      "description": "object next to the toilet paper used for relieving oneself",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        4
+      ],
+      "object_name": [
+        "shower curtain"
+      ],
+      "description": "object next to the light used for blocking water",
+      "question_type": "relative_position"
+    }
+  ]
+}

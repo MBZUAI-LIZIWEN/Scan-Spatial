@@ -179,7 +179,7 @@ async function loadPlyFile(filename) {
         
         // 加载模型
         loader.load(
-            'models/mesh_aligned_0.05.ply',
+            `models/${filename}`,
             (geometry) => {
                 // 确保正确计算法线
                 geometry.computeVertexNormals();

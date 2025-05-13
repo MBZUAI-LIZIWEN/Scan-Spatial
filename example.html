@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/example.css    ">
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/PLYLoader.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/OBJLoader.js"></script>
+    <script>
+        // 声明全局函数，使其在 onclick 中可用
+        function deleteAnnotation(index) {
+            // 这个函数会被 app.js 中的实现覆盖
+            console.warn('deleteAnnotation not implemented');
+        }
+        
+        function viewAnnotation(index) {
+            // 这个函数会被 app.js 中的实现覆盖
+            console.warn('viewAnnotation not implemented');
+        }
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="main-content">
+            <div class="file-list">
+                <h2>PLY</h2>
+                <ul id="ply-files">
+                    <li onclick="loadPlyFile('mesh_aligned_0.05_31a2c91c43.ply')">mesh_aligned_0.05_31a2c91c43.ply</li>
+                    <li onclick="loadPlyFile('example2.ply')">example2.ply</li>
+                    <li onclick="loadPlyFile('example3.ply')">example3.ply</li>
+                    <!-- 可以根据需要添加更多PLY文件 -->
+                </ul>
+                <h3>Filter by Type</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all" onclick="showAnnotations('all')">All</button>
+                    <button class="filter-btn" data-filter="abs_dis" onclick="showAnnotations('abs_dis')">abs_dis</button>
+                    <button class="filter-btn" data-filter="first_view" onclick="showAnnotations('first_view')">first_view</button>
+                    <button class="filter-btn" data-filter="distance" onclick="showAnnotations('camera_view')">camera_view</button>
+                    <!-- 更多过滤按钮 -->
+                </div>
+                <div class="annotations-section">
+                    <h2>Examples List</h2>
+                    <table id="annotations-table" class="annotations-table">
+                        <thead>
+                            <tr>
+                                <th>Description</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="annotations-list">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <div class="viewer-container">
+                <div id="viewer"></div>                
+            
+                <div class="example-details">
+                    <div class="question-box">
+                        <h3>Question:</h3>
+                        <p id="current-question">Which object is on the left of the table?</p>
+                    </div>
+                    <div class="answer-box">
+                        <h3>Answer:</h3>
+                        <p id="current-answer">Chair (Object ID: 23)</p>
+                    </div>
+                </div>
+            </div>            
+        </div>
+    </div>
+
+    <script src="js/example.js"></script>
+</body>
+</html>
