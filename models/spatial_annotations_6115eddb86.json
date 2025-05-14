@@ -1,0 +1,1076 @@
+{
+  "abs_annotations": [
+    {
+      "object_id": [
+        50,
+        79
+      ],
+      "object_name": [
+        "standing lamp",
+        "pillow"
+      ],
+      "description": "A pillow that is 1.01 meters away from the standing lamp",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        50,
+        46
+      ],
+      "object_name": [
+        "standing lamp",
+        "pillow"
+      ],
+      "description": "A cushion that is 1.92 meters away from the standing lamp",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        42,
+        79
+      ],
+      "object_name": [
+        "telephone",
+        "pillow"
+      ],
+      "description": "A pillow that is 2.99 meters away from the telephone",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        42,
+        46
+      ],
+      "object_name": [
+        "telephone",
+        "pillow"
+      ],
+      "description": "A soft object used for sleeping that is 3.41 meters away from the telephone",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        49,
+        57
+      ],
+      "object_name": [
+        "trash bin",
+        "bedside lamp"
+      ],
+      "description": "A bedside lamp that is 3.24 meters away from the trash bin",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        49,
+        47
+      ],
+      "object_name": [
+        "trash bin",
+        "bedside lamp"
+      ],
+      "description": "A light fixture next to a bed that is 3.6 meters away from the trash bin",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        42,
+        57
+      ],
+      "object_name": [
+        "telephone",
+        "bedside lamp"
+      ],
+      "description": "A bedside lamp that is 2.8 meters away from the telephone",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        42,
+        47
+      ],
+      "object_name": [
+        "telephone",
+        "bedside lamp"
+      ],
+      "description": "A bedside lamp that is 3.93 meters away from the telephone",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        26,
+        57
+      ],
+      "object_name": [
+        "curtain",
+        "bedside lamp"
+      ],
+      "description": "A bedside lamp that is 0.96 meters away from the curtain",
+      "question_type": "abs_dis"
+    },
+    {
+      "object_id": [
+        26,
+        47
+      ],
+      "object_name": [
+        "curtain",
+        "bedside lamp"
+      ],
+      "description": "A light fixture next to a bed that is 3.24 meters away from the curtain",
+      "question_type": "abs_dis"
+    }
+  ],
+  "rel_annotations": [
+    {
+      "object_id": [
+        18
+      ],
+      "object_name": [
+        "ottoman chair"
+      ],
+      "description": "Sitting on the bed facing the TV, an object for sitting at the front left",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        18
+      ],
+      "object_name": [
+        "ottoman chair"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), an object for sitting at the front left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "chair"
+      ],
+      "description": "Sitting on the bed facing the TV, an object for sitting at the front right",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "chair"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), an object for sitting at the front right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        40
+      ],
+      "object_name": [
+        "table"
+      ],
+      "description": "Sitting on the bed facing the TV, a round surface object for placing items at the front right",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        40
+      ],
+      "object_name": [
+        "table"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a round surface object for placing items at the front right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        49
+      ],
+      "object_name": [
+        "trash bin"
+      ],
+      "description": "Sitting on the bed facing the TV, a container for waste directly ahead",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        49
+      ],
+      "object_name": [
+        "trash bin"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a container for waste directly ahead",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        42
+      ],
+      "object_name": [
+        "telephone"
+      ],
+      "description": "Sitting on the bed facing the TV, a communication device at the front right",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        42
+      ],
+      "object_name": [
+        "telephone"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a communication device at the front right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        41
+      ],
+      "object_name": [
+        "table lamp"
+      ],
+      "description": "Sitting on the bed facing the TV, a lighting fixture at the front right",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        41
+      ],
+      "object_name": [
+        "table lamp"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a lighting fixture at the front right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        20
+      ],
+      "object_name": [
+        "sofa"
+      ],
+      "description": "Sitting on the bed facing the TV, a red seating object at the rear right",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        20
+      ],
+      "object_name": [
+        "sofa"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a red seating object at the rear right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        44
+      ],
+      "object_name": [
+        "pillow"
+      ],
+      "description": "Sitting on the bed facing the TV, a red square-shaped cushion at the rear right",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        44
+      ],
+      "object_name": [
+        "pillow"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a red square-shaped cushion at the rear right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        57
+      ],
+      "object_name": [
+        "bedside lamp"
+      ],
+      "description": "Sitting on the bed facing the TV, an illumination device at the rear right",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        57
+      ],
+      "object_name": [
+        "bedside lamp"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), an illumination device at the rear right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        50
+      ],
+      "object_name": [
+        "standing lamp"
+      ],
+      "description": "Sitting on the bed facing the TV, a cylindrical object on the floor at the rear right",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        50
+      ],
+      "object_name": [
+        "standing lamp"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a cylindrical object on the floor at the rear right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        78
+      ],
+      "object_name": [
+        "bedside table"
+      ],
+      "description": "Sitting on the bed facing the TV, a round surface for placing items at the rear right",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        78
+      ],
+      "object_name": [
+        "bedside table"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a round surface for placing items at the rear right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        47
+      ],
+      "object_name": [
+        "bedside lamp"
+      ],
+      "description": "Sitting on the bed facing the TV, a light source at the rear left",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        47
+      ],
+      "object_name": [
+        "bedside lamp"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a light source at the rear left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        13
+      ],
+      "object_name": [
+        "bedside counter"
+      ],
+      "description": "Sitting on the bed facing the TV, a square-shaped surface for placing items at the rear left",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        13
+      ],
+      "object_name": [
+        "bedside counter"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a square-shaped surface for placing items at the rear left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        67
+      ],
+      "object_name": [
+        "lamp"
+      ],
+      "description": "Sitting on the bed facing the TV, a lighting apparatus at the front left",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        67
+      ],
+      "object_name": [
+        "lamp"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a lighting apparatus at the front left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        1
+      ],
+      "object_name": [
+        "picture"
+      ],
+      "description": "Sitting on the bed facing the TV, a rectangular decorative object above",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        1
+      ],
+      "object_name": [
+        "picture"
+      ],
+      "description": "At view (-2.51, -1.22, -3.18, 0.04, 0.99, 0.16), a rectangular decorative object above",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        28
+      ],
+      "object_name": [
+        "sink"
+      ],
+      "description": "Facing the mirror with back to the toilet, directly ahead is an object for storing water and washing hands",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        28
+      ],
+      "object_name": [
+        "sink"
+      ],
+      "description": "At view (-6.31, -1.16, -2.54, -0.10, 0.98, 0.17), directly ahead is an object for storing water and washing hands",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        51
+      ],
+      "object_name": [
+        "bed"
+      ],
+      "description": "Facing the mirror with back to the toilet, on the right side beyond the wall is an object for lying on",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        51
+      ],
+      "object_name": [
+        "bed"
+      ],
+      "description": "At view (-6.31, -1.16, -2.54, -0.10, 0.98, 0.17), on the right side beyond the wall is an object for lying on",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        47
+      ],
+      "object_name": [
+        "bedside lamp"
+      ],
+      "description": "Facing the mirror with back to the toilet, the nearest lighting fixture on the rear right beyond the wall",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        47
+      ],
+      "object_name": [
+        "bedside lamp"
+      ],
+      "description": "At view (-6.31, -1.16, -2.54, -0.10, 0.98, 0.17), the nearest lighting fixture on the rear right beyond the wall",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        57
+      ],
+      "object_name": [
+        "bedside lamp"
+      ],
+      "description": "Facing the mirror with back to the toilet, the farthest bedside light on the rear right beyond the wall",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        57
+      ],
+      "object_name": [
+        "bedside lamp"
+      ],
+      "description": "At view (-6.31, -1.16, -2.54, -0.10, 0.98, 0.17), the farthest bedside light on the rear right beyond the wall",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        20
+      ],
+      "object_name": [
+        "sofa"
+      ],
+      "description": "Facing the mirror with back to the toilet, on the right side beyond the wall is a red piece of furniture",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        20
+      ],
+      "object_name": [
+        "sofa"
+      ],
+      "description": "At view (-6.31, -1.16, -2.54, -0.10, 0.98, 0.17), on the right side beyond the wall is a red piece of furniture",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        44
+      ],
+      "object_name": [
+        "pillow"
+      ],
+      "description": "Facing the mirror with back to the toilet, on the right side beyond the wall is a red square object",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        44
+      ],
+      "object_name": [
+        "pillow"
+      ],
+      "description": "At view (-6.31, -1.16, -2.54, -0.10, 0.98, 0.17), on the right side beyond the wall is a red square object",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "chair"
+      ],
+      "description": "Facing the mirror with back to the toilet, on the front right beyond the wall is a white object for sitting",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "chair"
+      ],
+      "description": "At view (-6.31, -1.16, -2.54, -0.10, 0.98, 0.17), on the front right beyond the wall is a white object for sitting",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        40
+      ],
+      "object_name": [
+        "table"
+      ],
+      "description": "Facing the mirror with back to the toilet, on the front right beyond the wall is a round-surfaced object for placing items",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        40
+      ],
+      "object_name": [
+        "table"
+      ],
+      "description": "At view (-6.31, -1.16, -2.54, -0.10, 0.98, 0.17), on the front right beyond the wall is a round-surfaced object for placing items",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        42
+      ],
+      "object_name": [
+        "telephone"
+      ],
+      "description": "Facing the mirror with back to the toilet, on the front right beyond the wall is an object for making and receiving calls",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        42
+      ],
+      "object_name": [
+        "telephone"
+      ],
+      "description": "At view (-6.31, -1.16, -2.54, -0.10, 0.98, 0.17), on the front right beyond the wall is an object for making and receiving calls",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        56
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "Facing the mirror with back to the toilet, on the front right is an object for wiping the body",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        56
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "At view (-6.31, -1.16, -2.54, -0.10, 0.98, 0.17), on the front right is an object for wiping the body",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        24
+      ],
+      "object_name": [
+        "tv"
+      ],
+      "description": "Facing the shoe stool with back to the door, with wardrobe on the right, on the front left is a black object for display",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        24
+      ],
+      "object_name": [
+        "tv"
+      ],
+      "description": "At view (2.36, -0.40, -4.85, 0.91, -0.33, 0.26), on the front left is a black object for display",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        51
+      ],
+      "object_name": [
+        "bed"
+      ],
+      "description": "Facing the shoe stool with back to the door, with wardrobe on the right, on the front right is an object for lying on when sleeping",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        51
+      ],
+      "object_name": [
+        "bed"
+      ],
+      "description": "At view (2.36, -0.40, -4.85, 0.91, -0.33, 0.26), on the front right is an object for lying on when sleeping",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        26
+      ],
+      "object_name": [
+        "curtain"
+      ],
+      "description": "Facing the shoe stool with back to the door, with wardrobe on the right, directly ahead is an object for covering windows",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        26
+      ],
+      "object_name": [
+        "curtain"
+      ],
+      "description": "At view (2.36, -0.40, -4.85, 0.91, -0.33, 0.26), directly ahead is an object for covering windows",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        67
+      ],
+      "object_name": [
+        "lamp"
+      ],
+      "description": "Facing the shoe stool with back to the door, with wardrobe on the right, directly ahead is the nearest object for illumination",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        67
+      ],
+      "object_name": [
+        "lamp"
+      ],
+      "description": "At view (2.36, -0.40, -4.85, 0.91, -0.33, 0.26), directly ahead is the nearest object for illumination",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        40
+      ],
+      "object_name": [
+        "table"
+      ],
+      "description": "Facing the shoe stool with back to the door, with wardrobe on the right, directly ahead is a round-surfaced object for placing items",
+      "question_type": "first_view"
+    },
+    {
+      "object_id": [
+        40
+      ],
+      "object_name": [
+        "table"
+      ],
+      "description": "At view (2.36, -0.40, -4.85, 0.91, -0.33, 0.26), directly ahead is a round-surfaced object for placing items",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        75
+      ],
+      "object_name": [
+        "toilet paper"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for wiping after using the toilet directly ahead",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        27
+      ],
+      "object_name": [
+        "toilet"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for relieving oneself in the front left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        28
+      ],
+      "object_name": [
+        "sink"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for storing water and washing hands in the front right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        56
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for wiping the body in the front right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        31
+      ],
+      "object_name": [
+        "vent"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for ventilation in the upper right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        18
+      ],
+      "object_name": [
+        "ottoman chair"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for sitting on the right side",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "chair"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for sitting in the back right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        20
+      ],
+      "object_name": [
+        "sofa"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for sitting in the back left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        47
+      ],
+      "object_name": [
+        "bedside lamp"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), a cylindrical object used for lighting in the front left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        13
+      ],
+      "object_name": [
+        "bedside counter"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), a square object used for placing items in the front left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        57
+      ],
+      "object_name": [
+        "bedside lamp"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), a cylindrical object used for lighting in the back left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        78
+      ],
+      "object_name": [
+        "bedside table"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), a round-surfaced object used for placing items in the back left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        44
+      ],
+      "object_name": [
+        "pillow"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), a red square object in the back left",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        40
+      ],
+      "object_name": [
+        "table"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), a round-surfaced object used for placing items in the back right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        41
+      ],
+      "object_name": [
+        "table lamp"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an object used for lighting in the back right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        42
+      ],
+      "object_name": [
+        "telephone"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for making and receiving calls in the back right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        26
+      ],
+      "object_name": [
+        "curtain"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for covering windows in the back",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        49
+      ],
+      "object_name": [
+        "trash bin"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for holding garbage in the back right",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        24
+      ],
+      "object_name": [
+        "tv"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), an item used for displaying content on the right side",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        1
+      ],
+      "object_name": [
+        "picture"
+      ],
+      "description": "At view (-2.40, -1.77, 2.59, -0.99, 0.00, 0.10), a black-edged rectangular prism used for decoration on the left side",
+      "question_type": "camera_view"
+    },
+    {
+      "object_id": [
+        78
+      ],
+      "object_name": [
+        "bedside table"
+      ],
+      "description": "A round-surfaced item placed beside the bed for storing objects",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        13
+      ],
+      "object_name": [
+        "bedside counter"
+      ],
+      "description": "A square item placed beside the bed for storing objects",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        50
+      ],
+      "object_name": [
+        "standing lamp"
+      ],
+      "description": "The largest cylinder beside the sofa",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        44
+      ],
+      "object_name": [
+        "pillow"
+      ],
+      "description": "An object on the red sofa",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        67
+      ],
+      "object_name": [
+        "lamp"
+      ],
+      "description": "An item used for illumination directly above the shoe-changing stool",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        42
+      ],
+      "object_name": [
+        "telephone"
+      ],
+      "description": "A device for making calls on the oval table",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        41
+      ],
+      "object_name": [
+        "table lamp"
+      ],
+      "description": "An item used for lighting on the oval table",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        19
+      ],
+      "object_name": [
+        "chair"
+      ],
+      "description": "A seating item closest to the oval table",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        49
+      ],
+      "object_name": [
+        "trash bin"
+      ],
+      "description": "A container for waste beside the white stool",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        27
+      ],
+      "object_name": [
+        "toilet"
+      ],
+      "description": "An item hung on the wall for relieving oneself",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        74
+      ],
+      "object_name": [
+        "toilet paper"
+      ],
+      "description": "The item closest to the toilet used for wiping after using the bathroom",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        75
+      ],
+      "object_name": [
+        "toilet paper"
+      ],
+      "description": "The item farthest from the toilet used for wiping after using the bathroom",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        28
+      ],
+      "object_name": [
+        "sink"
+      ],
+      "description": "The item next to the toilet used for storing water and washing hands",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        36
+      ],
+      "object_name": [
+        "wardrobe"
+      ],
+      "description": "The item near the door used for storing clothes",
+      "question_type": "relative_position"
+    },
+    {
+      "object_id": [
+        26
+      ],
+      "object_name": [
+        "curtain"
+      ],
+      "description": "The item beside the red sofa used for covering windows",
+      "question_type": "relative_position"
+    }
+  ]
+}

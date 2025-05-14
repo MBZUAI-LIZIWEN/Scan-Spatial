@@ -25,20 +25,15 @@
     <div class="container">
         <div class="main-content">
             <div class="file-list">
-                <h2>PLY</h2>
-                <ul id="ply-files">
-                    <li onclick="loadPlyFile('mesh_aligned_0.05_31a2c91c43.ply')">mesh_aligned_0.05_31a2c91c43.ply</li>
-                    <li onclick="loadPlyFile('example2.ply')">example2.ply</li>
-                    <li onclick="loadPlyFile('example3.ply')">example3.ply</li>
+                <h2>Example Scene</h2>
+                <ul id="ply-files" style="list-style: none; padding: 0;">
+                    <li onclick="loadPlyFile('mesh_aligned_0.05_31a2c91c43.ply'); highlightItem(this);" style="padding: 8px 12px; margin: 5px 0; cursor: pointer; border-radius: 4px; transition: background-color 0.3s;" class="scene-item">S1: 31a2c91c43</li>
+                    <li onclick="loadPlyFile('mesh_aligned_0.05_6115eddb86.ply'); highlightItem(this);" style="padding: 8px 12px; margin: 5px 0; cursor: pointer; border-radius: 4px; transition: background-color 0.3s;" class="scene-item">S2: 6115eddb86</li>
                     <!-- 可以根据需要添加更多PLY文件 -->
                 </ul>
                 <h3>Filter by Type</h3>
-                <div class="filter-buttons">
-                    <button class="filter-btn active" data-filter="all" onclick="showAnnotations('all')">All</button>
-                    <button class="filter-btn" data-filter="abs_dis" onclick="showAnnotations('abs_dis')">abs_dis</button>
-                    <button class="filter-btn" data-filter="first_view" onclick="showAnnotations('first_view')">first_view</button>
-                    <button class="filter-btn" data-filter="distance" onclick="showAnnotations('camera_view')">camera_view</button>
-                    <!-- 更多过滤按钮 -->
+                <div class="filter-buttons" style="margin: 15px 0;">
+                    <!-- 按钮将通过JavaScript动态生成 -->
                 </div>
                 <div class="annotations-section">
                     <h2>Examples List</h2>
@@ -72,5 +67,20 @@
     </div>
 
     <script src="js/example.js"></script>
+    <script>
+        // 高亮选中的场景项
+        function highlightItem(element) {
+            // 移除所有项的高亮
+            var items = document.getElementsByClassName('scene-item');
+            for (var i = 0; i < items.length; i++) {
+                items[i].style.backgroundColor = '';
+                items[i].style.color = '';
+            }
+            
+            // 添加当前项的高亮
+            element.style.backgroundColor = '#4CAF50';
+            element.style.color = 'white';
+        }
+    </script>
 </body>
 </html>

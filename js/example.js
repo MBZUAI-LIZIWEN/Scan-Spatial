@@ -153,7 +153,7 @@ async function loadPlyFile(filename) {
         loadingDiv.style.top = '50%';
         loadingDiv.style.left = '50%';
         loadingDiv.style.transform = 'translate(-50%, -50%)';
-        loadingDiv.style.color = '#333';
+        loadingDiv.style.color = '#FFFFFF';
         loadingDiv.style.fontSize = '20px';
         viewer.appendChild(loadingDiv);
         
@@ -791,20 +791,39 @@ async function loadAnnotations(filename) {
         const data2 = await response2.json();
         // Merge commonsense annotations from both data sources
         const commonsense1 = data1.commonsense || [];
-        const commonsense2 = data2.abs_annotations || [];
-        const commonsense3 = data2.rel_annotations || [];
-        let data = commonsense1.concat(commonsense2).concat(commonsense3);
+        const commonsense2 = data1.human_intention || [];        
+        const commonsense3 = data2.abs_annotations || [];
+        const commonsense4 = data2.rel_annotations || [];
+        let data = commonsense1.concat(commonsense2).concat(commonsense3).concat(commonsense4);
 
         
         annotations = data || [];
         console.log(annotations);
+
+         // 获取所有唯一的 question_type
+         const questionTypes = [...new Set(annotations.map(annotation => annotation.question_type).filter(type => type))];
+         // 生成过滤按钮
+         generateFilterButtons(questionTypes);
+
         showAnnotations("all");
     } catch (error) {
         console.error('加载标注失败:', error);
         annotations = [];
     }
 }
+// 添加生成过滤按钮的函数
+function generateFilterButtons(questionTypes) {
+    const filterContainer = document.querySelector('.filter-buttons');
+    filterContainer.innerHTML = ''; // 清空之前的按钮
 
+    questionTypes.forEach(type => {
+        const button = document.createElement('button');
+        button.textContent = type;
+        button.style.margin = '2px';
+        button.onclick = () => showAnnotations(type);
+        filterContainer.appendChild(button);
+    });
+}
 async function showAnnotations(filter) {
     try {
         // 更新标注列表显示
@@ -825,7 +844,7 @@ async function showAnnotations(filter) {
             tr.innerHTML = `
                 <td>${annotation.description}</td>
                 <td>
-                    <button class="view-btn" onclick="viewAnnotation(${annotations.indexOf(annotation)})">查看</button>
+                    <button class="view-btn" onclick="viewAnnotation(${annotations.indexOf(annotation)})">show</button>
                 </td>
             `;
             annotationsList.appendChild(tr);
@@ -922,19 +941,7 @@ function viewAnnotation(index) {
     updateSelectionInfo(selectedInstanceIds);
 
     // --- 修改开始: 恢复相机视角 ---
-    // 恢复相机视角
-    if (annotation.camera_params && annotation.camera_params.position && annotation.camera_params.target && annotation.camera_params.up) {
-        const params = annotation.camera_params;
-        camera.position.fromArray(params.position);
-        controls.target.fromArray(params.target); // 设置控制器的目标点
-        camera.up.fromArray(params.up);           // 设置相机的上方向
-        controls.update(); // 更新控制器状态以应用更改
-        console.log('相机视角已恢复');
-    } else {
-        console.warn('此标注没有保存完整的相机参数 (position, target, up)');
-    }
-    // --- 修改结束 ---
-}
+
 // --- 添加结束 ---
 
 // 解析npy文件的函数
@@ -1008,3 +1015,46 @@ function getColorForInstanceId(instanceId) {
     return new THREE.Color().setHSL(hue / 360, saturation, lightness);
 }
 // --- 添加结束 ---
+    // 恢复相机视角
+    const description = annotation.description;
+    const match = description.match(/\((-?\d+\.?\d*),\s*(-?\d+\.?\d*),\s*(-?\d+\.?\d*),\s*(-?\d+\.?\d*),\s*(-?\d+\.?\d*),\s*(-?\d+\.?\d*)\)/);
+    
+    if (0 && match) {
+        const cameraParams = match.slice(1, 5).map(Number);
+        console.log('解析出的相机参数:', cameraParams);
+        // 使用解析出的相机参数进行相机设置
+        camera.position.set(cameraParams[0], cameraParams[1], cameraParams[2]);
+        controls.target.set(cameraParams[3], cameraParams[4], cameraParams[5]);
+        controls.update();
+    } else {
+        console.warn('描述中没有找到有效的相机参数');
+    }
+    if (annotation.camera_params && annotation.camera_params.position && annotation.camera_params.target && annotation.camera_params.up) {
+        const params = annotation.camera_params;
+        camera.position.fromArray(params.position);
+        controls.target.fromArray(params.target); // 设置控制器的目标点
+        camera.up.fromArray(params.up);           // 设置相机的上方向
+        controls.update(); // 更新控制器状态以应用更改
+        console.log('相机视角已恢复');
+    } else {
+        console.warn('此标注没有保存完整的相机参数 (position, target, up)');
+    }
+    // --- 添加开始: 更新问题和答案显示 ---
+    document.getElementById('current-question').textContent = annotation.description;
+    document.getElementById('current-answer').textContent = `Object IDs: ${objectIds.join(', ')}`;
+    // --- 修改结束 ---
+}
+
+
+// --- 添加开始 ---
+// 根据实例ID生成稳定且不同的颜色
+function getColorForInstanceId(instanceId) {
+    // 使用 HSL 颜色空间生成颜色，以获得更好的区分度
+    // 基于 golden angle 来分散色调
+    const hue = (instanceId * 137.508) % 360; // 黄金角度近似值
+    // 饱和度和亮度可以稍微变化，或保持固定以获得更一致的外观
+    const saturation = 0.75; // 保持较高的饱和度
+    const lightness = 0.6;  // 保持适中的亮度
+    return new THREE.Color().setHSL(hue / 360, saturation, lightness);
+}
+// --- 添加结束 --

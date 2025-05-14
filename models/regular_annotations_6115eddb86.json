@@ -1,0 +1,1539 @@
+{
+  "commonsense": [
+    {
+      "object_id": [
+        51,
+        19,
+        18,
+        20,
+        65
+      ],
+      "object_name": [
+        "bed",
+        "chair",
+        "ottoman chair",
+        "sofa",
+        "shower seating"
+      ],
+      "description": "What objects can be used to sit on?"
+    },
+    {
+      "object_id": [
+        51,
+        53,
+        55,
+        54,
+        46,
+        79,
+        44,
+        57,
+        47,
+        78
+      ],
+      "object_name": [
+        "bed",
+        "blanket",
+        "pillow",
+        "pillow",
+        "pillow",
+        "pillow",
+        "pillow",
+        "bedside lamp",
+        "bedside lamp",
+        "bedside table"
+      ],
+      "description": "Which objects are typically found in a bedroom?"
+    },
+    {
+      "object_id": [
+        77,
+        84,
+        83,
+        82,
+        81,
+        80,
+        52,
+        58,
+        60,
+        61
+      ],
+      "object_name": [
+        "coffee maker",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light",
+        "light switch",
+        "light switch",
+        "light switch",
+        "light switch"
+      ],
+      "description": "Which objects should children avoid for safety reasons?"
+    },
+    {
+      "object_id": [
+        28,
+        27,
+        75,
+        74,
+        56,
+        3
+      ],
+      "object_name": [
+        "sink",
+        "toilet",
+        "toilet paper",
+        "toilet paper",
+        "towel",
+        "bathroom shelf"
+      ],
+      "description": "Which objects typically work together in a bathroom?"
+    },
+    {
+      "object_id": [
+        51,
+        28,
+        27,
+        75,
+        74,
+        77,
+        24,
+        89
+      ],
+      "object_name": [
+        "bed",
+        "sink",
+        "toilet",
+        "toilet paper",
+        "toilet paper",
+        "coffee maker",
+        "tv",
+        "tv remote"
+      ],
+      "description": "Which objects are used daily?"
+    },
+    {
+      "object_id": [
+        39,
+        13,
+        78,
+        40
+      ],
+      "object_name": [
+        "counter",
+        "bedside counter",
+        "bedside table",
+        "table"
+      ],
+      "description": "What can be used to hold drinks?"
+    },
+    {
+      "object_id": [
+        57,
+        47,
+        67,
+        50,
+        41,
+        84,
+        83,
+        82,
+        81,
+        80
+      ],
+      "object_name": [
+        "bedside lamp",
+        "bedside lamp",
+        "lamp",
+        "standing lamp",
+        "table lamp",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light"
+      ],
+      "description": "Which objects provide lighting?"
+    },
+    {
+      "object_id": [
+        35,
+        33,
+        36,
+        34,
+        2,
+        3
+      ],
+      "object_name": [
+        "bath cabinet",
+        "cabinet",
+        "wardrobe",
+        "wall unit",
+        "box",
+        "bathroom shelf"
+      ],
+      "description": "What objects are used for storage?"
+    },
+    {
+      "object_id": [
+        77,
+        24,
+        57,
+        47,
+        67,
+        50,
+        41
+      ],
+      "object_name": [
+        "coffee maker",
+        "tv",
+        "bedside lamp",
+        "bedside lamp",
+        "lamp",
+        "standing lamp",
+        "table lamp"
+      ],
+      "description": "Which objects are electrical appliances?"
+    },
+    {
+      "object_id": [
+        1,
+        26,
+        45,
+        5,
+        54,
+        46,
+        79,
+        44
+      ],
+      "object_name": [
+        "picture",
+        "curtain",
+        "headboard",
+        "pillow",
+        "pillow",
+        "pillow",
+        "pillow",
+        "pillow"
+      ],
+      "description": "What objects can be used for decoration?"
+    },
+    {
+      "object_id": [
+        20,
+        19,
+        18,
+        40,
+        24,
+        89,
+        50
+      ],
+      "object_name": [
+        "sofa",
+        "chair",
+        "ottoman chair",
+        "table",
+        "tv",
+        "tv remote",
+        "standing lamp"
+      ],
+      "description": "Which objects are typically found in a living room?"
+    },
+    {
+      "object_id": [
+        51,
+        53,
+        55,
+        54,
+        46,
+        79,
+        44
+      ],
+      "object_name": [
+        "bed",
+        "blanket",
+        "pillow",
+        "pillow",
+        "pillow",
+        "pillow",
+        "pillow"
+      ],
+      "description": "What objects can be used to sleep on?"
+    },
+    {
+      "object_id": [
+        28,
+        27,
+        75,
+        74,
+        56,
+        3
+      ],
+      "object_name": [
+        "sink",
+        "toilet",
+        "toilet paper",
+        "toilet paper",
+        "towel",
+        "bathroom shelf"
+      ],
+      "description": "Which objects are used for personal hygiene?"
+    },
+    {
+      "object_id": [
+        39,
+        13,
+        78,
+        40
+      ],
+      "object_name": [
+        "counter",
+        "bedside counter",
+        "bedside table",
+        "table"
+      ],
+      "description": "What objects can be used to place books on?"
+    },
+    {
+      "object_id": [
+        28,
+        27,
+        73,
+        64,
+        63,
+        62,
+        65
+      ],
+      "object_name": [
+        "sink",
+        "toilet",
+        "shower floor",
+        "shower wall",
+        "shower wall",
+        "shower wall",
+        "shower seating"
+      ],
+      "description": "Which objects are part of the bathroom infrastructure?"
+    },
+    {
+      "object_id": [
+        89,
+        52,
+        58,
+        60,
+        61
+      ],
+      "object_name": [
+        "tv remote",
+        "light switch",
+        "light switch",
+        "light switch",
+        "light switch"
+      ],
+      "description": "What objects can be used to control other devices?"
+    },
+    {
+      "object_id": [
+        87,
+        31,
+        43
+      ],
+      "object_name": [
+        "ceiling vent",
+        "vent",
+        "ventilation"
+      ],
+      "description": "Which objects are used for ventilation?"
+    },
+    {
+      "object_id": [
+        36,
+        34,
+        3
+      ],
+      "object_name": [
+        "wardrobe",
+        "wall unit",
+        "bathroom shelf"
+      ],
+      "description": "What objects can be used to hang clothes?"
+    },
+    {
+      "object_id": [
+        66,
+        85,
+        87,
+        31
+      ],
+      "object_name": [
+        "smoke detector",
+        "smoke detector",
+        "ceiling vent",
+        "vent"
+      ],
+      "description": "Which objects are used for safety purposes?"
+    },
+    {
+      "object_id": [
+        77
+      ],
+      "object_name": [
+        "coffee maker"
+      ],
+      "description": "What objects can be used to make coffee?"
+    },
+    {
+      "object_id": [
+        42,
+        25
+      ],
+      "object_name": [
+        "telephone",
+        "telephone"
+      ],
+      "description": "Which objects are used for communication?"
+    },
+    {
+      "object_id": [
+        24,
+        89
+      ],
+      "object_name": [
+        "tv",
+        "tv remote"
+      ],
+      "description": "What objects can be used to watch entertainment?"
+    },
+    {
+      "object_id": [
+        49
+      ],
+      "object_name": [
+        "trash bin"
+      ],
+      "description": "Which objects are used for waste disposal?"
+    },
+    {
+      "object_id": [
+        32
+      ],
+      "object_name": [
+        "mirror"
+      ],
+      "description": "What objects can be used to see your reflection?"
+    },
+    {
+      "object_id": [
+        26,
+        14,
+        48,
+        22,
+        21
+      ],
+      "object_name": [
+        "curtain",
+        "sliding door",
+        "sliding door frame",
+        "door",
+        "door"
+      ],
+      "description": "Which objects are used to divide spaces?"
+    },
+    {
+      "object_id": [
+        59,
+        76,
+        38,
+        37
+      ],
+      "object_name": [
+        "power socket",
+        "power socket",
+        "power socket",
+        "power socket"
+      ],
+      "description": "What objects can be used to charge devices?"
+    },
+    {
+      "object_id": [
+        66,
+        85
+      ],
+      "object_name": [
+        "smoke detector",
+        "smoke detector"
+      ],
+      "description": "Which objects are used for emergency detection?"
+    },
+    {
+      "object_id": [
+        56
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "What objects can be used to dry your hands?"
+    },
+    {
+      "object_id": [
+        35,
+        3
+      ],
+      "object_name": [
+        "bath cabinet",
+        "bathroom shelf"
+      ],
+      "description": "Which objects are used for bathroom storage?"
+    },
+    {
+      "object_id": [
+        26
+      ],
+      "object_name": [
+        "curtain"
+      ],
+      "description": "What objects can be used to cover windows?"
+    },
+    {
+      "object_id": [
+        57,
+        47,
+        50
+      ],
+      "object_name": [
+        "bedside lamp",
+        "bedside lamp",
+        "standing lamp"
+      ],
+      "description": "Which objects are used for bedroom lighting?"
+    },
+    {
+      "object_id": [
+        36,
+        34
+      ],
+      "object_name": [
+        "wardrobe",
+        "wall unit"
+      ],
+      "description": "What objects can be used to store clothes?"
+    },
+    {
+      "object_id": [
+        84,
+        83,
+        82,
+        81,
+        80
+      ],
+      "object_name": [
+        "ceiling light",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light"
+      ],
+      "description": "Which objects are used for general illumination?"
+    },
+    {
+      "object_id": [
+        78,
+        40,
+        13
+      ],
+      "object_name": [
+        "bedside table",
+        "table",
+        "bedside counter"
+      ],
+      "description": "What objects can be used to place a lamp on?"
+    },
+    {
+      "object_id": [
+        65
+      ],
+      "object_name": [
+        "shower seating"
+      ],
+      "description": "Which objects are used for bathroom seating?"
+    },
+    {
+      "object_id": [
+        35,
+        3
+      ],
+      "object_name": [
+        "bath cabinet",
+        "bathroom shelf"
+      ],
+      "description": "What objects can be used to store toiletries?"
+    },
+    {
+      "object_id": [
+        78,
+        13,
+        36
+      ],
+      "object_name": [
+        "bedside table",
+        "bedside counter",
+        "wardrobe"
+      ],
+      "description": "Which objects are used for bedroom storage?"
+    },
+    {
+      "object_id": [
+        78,
+        40,
+        13
+      ],
+      "object_name": [
+        "bedside table",
+        "table",
+        "bedside counter"
+      ],
+      "description": "What objects can be used to place decorative items?"
+    },
+    {
+      "object_id": [
+        87,
+        31,
+        43
+      ],
+      "object_name": [
+        "ceiling vent",
+        "vent",
+        "ventilation"
+      ],
+      "description": "Which objects are used for air circulation?"
+    },
+    {
+      "object_id": [
+        33,
+        39
+      ],
+      "object_name": [
+        "cabinet",
+        "counter"
+      ],
+      "description": "What objects can be used to store kitchen items?"
+    },
+    {
+      "object_id": [
+        20,
+        19,
+        18
+      ],
+      "object_name": [
+        "sofa",
+        "chair",
+        "ottoman chair"
+      ],
+      "description": "Which objects are used for living room seating?"
+    },
+    {
+      "object_id": [
+        40,
+        34
+      ],
+      "object_name": [
+        "table",
+        "wall unit"
+      ],
+      "description": "What objects can be used to place a TV?"
+    },
+    {
+      "object_id": [
+        78,
+        13,
+        36
+      ],
+      "object_name": [
+        "bedside table",
+        "bedside counter",
+        "wardrobe"
+      ],
+      "description": "Which objects are used for bedroom organization?"
+    },
+    {
+      "object_id": [
+        78,
+        40,
+        13
+      ],
+      "object_name": [
+        "bedside table",
+        "table",
+        "bedside counter"
+      ],
+      "description": "What objects can be used to place a telephone?"
+    },
+    {
+      "object_id": [
+        56,
+        49
+      ],
+      "object_name": [
+        "towel",
+        "trash bin"
+      ],
+      "description": "Which objects are used for bathroom cleaning?"
+    },
+    {
+      "object_id": [
+        36,
+        34
+      ],
+      "object_name": [
+        "wardrobe",
+        "wall unit"
+      ],
+      "description": "What objects can be used to store bedding?"
+    },
+    {
+      "object_id": [
+        51,
+        53,
+        55,
+        54,
+        46,
+        79,
+        44
+      ],
+      "object_name": [
+        "bed",
+        "blanket",
+        "pillow",
+        "pillow",
+        "pillow",
+        "pillow",
+        "pillow"
+      ],
+      "description": "Which objects are used for bedroom comfort?"
+    },
+    {
+      "object_id": [
+        39
+      ],
+      "object_name": [
+        "counter"
+      ],
+      "description": "What objects can be used to place a coffee maker?"
+    },
+    {
+      "object_id": [
+        26,
+        14
+      ],
+      "object_name": [
+        "curtain",
+        "sliding door"
+      ],
+      "description": "Which objects are used for bathroom privacy?"
+    },
+    {
+      "object_id": [
+        36,
+        34,
+        2
+      ],
+      "object_name": [
+        "wardrobe",
+        "wall unit",
+        "box"
+      ],
+      "description": "What objects can be used to store shoes?"
+    },
+    {
+      "object_id": [
+        1,
+        45
+      ],
+      "object_name": [
+        "picture",
+        "headboard"
+      ],
+      "description": "Which objects are used for bedroom decoration?"
+    },
+    {
+      "object_id": [
+        34,
+        35
+      ],
+      "object_name": [
+        "wall unit",
+        "bath cabinet"
+      ],
+      "description": "What objects can be used to place a mirror?"
+    },
+    {
+      "object_id": [
+        84,
+        83,
+        82,
+        81,
+        80
+      ],
+      "object_name": [
+        "ceiling light",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light"
+      ],
+      "description": "Which objects are used for bathroom lighting?"
+    },
+    {
+      "object_id": [
+        35,
+        3
+      ],
+      "object_name": [
+        "bath cabinet",
+        "bathroom shelf"
+      ],
+      "description": "What objects can be used to store towels?"
+    },
+    {
+      "object_id": [
+        52,
+        58,
+        60,
+        61
+      ],
+      "object_name": [
+        "light switch",
+        "light switch",
+        "light switch",
+        "light switch"
+      ],
+      "description": "Which objects are used for bedroom lighting control?"
+    },
+    {
+      "object_id": [
+        28,
+        27
+      ],
+      "object_name": [
+        "sink",
+        "toilet"
+      ],
+      "description": "What objects are commonly found near a trash bin?"
+    },
+    {
+      "object_id": [
+        33,
+        36,
+        34,
+        2
+      ],
+      "object_name": [
+        "cabinet",
+        "wardrobe",
+        "wall unit",
+        "box"
+      ],
+      "description": "Which objects are used for general storage?"
+    },
+    {
+      "object_id": [
+        13,
+        78,
+        40
+      ],
+      "object_name": [
+        "bedside counter",
+        "bedside table",
+        "table"
+      ],
+      "description": "What objects can be used to place a picture?"
+    },
+    {
+      "object_id": [
+        43,
+        87,
+        31
+      ],
+      "object_name": [
+        "ventilation",
+        "ceiling vent",
+        "vent"
+      ],
+      "description": "Which objects are specifically designed for ventilation purposes?"
+    },
+    {
+      "object_id": [
+        20,
+        19,
+        18
+      ],
+      "object_name": [
+        "sofa",
+        "chair",
+        "ottoman chair"
+      ],
+      "description": "What objects can be used to place a standing lamp?"
+    }
+  ],
+  "human_intention": [
+    {
+      "object_id": [
+        28,
+        77
+      ],
+      "object_name": [
+        "sink",
+        "coffee maker"
+      ],
+      "description": "I'm thirsty, what should I use?"
+    },
+    {
+      "object_id": [
+        51
+      ],
+      "object_name": [
+        "bed"
+      ],
+      "description": "I'm sleepy, where should I go?"
+    },
+    {
+      "object_id": [
+        28
+      ],
+      "object_name": [
+        "sink"
+      ],
+      "description": "I need to wash my hands, what can I use?"
+    },
+    {
+      "object_id": [
+        24,
+        89
+      ],
+      "object_name": [
+        "tv",
+        "tv remote"
+      ],
+      "description": "I want to watch TV, what should I use?"
+    },
+    {
+      "object_id": [
+        59,
+        76,
+        38,
+        37
+      ],
+      "object_name": [
+        "power socket",
+        "power socket",
+        "power socket",
+        "power socket"
+      ],
+      "description": "I need to charge my phone, where can I plug it in?"
+    },
+    {
+      "object_id": [
+        19,
+        18,
+        20
+      ],
+      "object_name": [
+        "chair",
+        "ottoman chair",
+        "sofa"
+      ],
+      "description": "I want to sit and relax, where can I go?"
+    },
+    {
+      "object_id": [
+        36,
+        35
+      ],
+      "object_name": [
+        "wardrobe",
+        "bath cabinet"
+      ],
+      "description": "I need to store my clothes, where can I put them?"
+    },
+    {
+      "object_id": [
+        57,
+        47,
+        67,
+        50,
+        41
+      ],
+      "object_name": [
+        "bedside lamp",
+        "bedside lamp",
+        "lamp",
+        "standing lamp",
+        "table lamp"
+      ],
+      "description": "I want to read a book at night, what can I use for light?"
+    },
+    {
+      "object_id": [
+        73,
+        65
+      ],
+      "object_name": [
+        "shower floor",
+        "shower seating"
+      ],
+      "description": "I need to take a shower, where should I go?"
+    },
+    {
+      "object_id": [
+        77
+      ],
+      "object_name": [
+        "coffee maker"
+      ],
+      "description": "I want to make coffee, what should I use?"
+    },
+    {
+      "object_id": [
+        49
+      ],
+      "object_name": [
+        "trash bin"
+      ],
+      "description": "I need to throw away trash, where can I put it?"
+    },
+    {
+      "object_id": [
+        56
+      ],
+      "object_name": [
+        "towel"
+      ],
+      "description": "I want to dry my hands, what can I use?"
+    },
+    {
+      "object_id": [
+        27
+      ],
+      "object_name": [
+        "toilet"
+      ],
+      "description": "I need to use the bathroom, where should I go?"
+    },
+    {
+      "object_id": [
+        1
+      ],
+      "object_name": [
+        "picture"
+      ],
+      "description": "I want to decorate the space, what can I use?"
+    },
+    {
+      "object_id": [
+        3,
+        35
+      ],
+      "object_name": [
+        "bathroom shelf",
+        "bath cabinet"
+      ],
+      "description": "I need to store bathroom items, where can I put them?"
+    },
+    {
+      "object_id": [
+        43,
+        87,
+        31
+      ],
+      "object_name": [
+        "ventilation",
+        "ceiling vent",
+        "vent"
+      ],
+      "description": "I want to ventilate the room, what can I use?"
+    },
+    {
+      "object_id": [
+        42,
+        25
+      ],
+      "object_name": [
+        "telephone",
+        "telephone"
+      ],
+      "description": "I need to answer a phone call, what can I use?"
+    },
+    {
+      "object_id": [
+        32
+      ],
+      "object_name": [
+        "mirror"
+      ],
+      "description": "I want to look at myself, what can I use?"
+    },
+    {
+      "object_id": [
+        33,
+        39
+      ],
+      "object_name": [
+        "cabinet",
+        "counter"
+      ],
+      "description": "I need to store kitchen items, where can I put them?"
+    },
+    {
+      "object_id": [
+        61,
+        60,
+        58,
+        52
+      ],
+      "object_name": [
+        "light switch",
+        "light switch",
+        "light switch",
+        "light switch"
+      ],
+      "description": "I want to turn on the lights, what should I use?"
+    },
+    {
+      "object_id": [
+        65
+      ],
+      "object_name": [
+        "shower seating"
+      ],
+      "description": "I need to sit while showering, what can I use?"
+    },
+    {
+      "object_id": [
+        53
+      ],
+      "object_name": [
+        "blanket"
+      ],
+      "description": "I want to cover myself while sleeping, what can I use?"
+    },
+    {
+      "object_id": [
+        2,
+        78
+      ],
+      "object_name": [
+        "box",
+        "bedside table"
+      ],
+      "description": "I need to store miscellaneous items, where can I put them?"
+    },
+    {
+      "object_id": [
+        55,
+        54,
+        46,
+        79,
+        44
+      ],
+      "object_name": [
+        "pillow",
+        "pillow",
+        "pillow",
+        "pillow",
+        "pillow"
+      ],
+      "description": "I want to rest my head while sleeping, what can I use?"
+    },
+    {
+      "object_id": [
+        75,
+        74
+      ],
+      "object_name": [
+        "toilet paper",
+        "toilet paper"
+      ],
+      "description": "I need to use toilet paper, where can I find it?"
+    },
+    {
+      "object_id": [
+        26
+      ],
+      "object_name": [
+        "curtain"
+      ],
+      "description": "I want to block sunlight from the window, what can I use?"
+    },
+    {
+      "object_id": [
+        45
+      ],
+      "object_name": [
+        "headboard"
+      ],
+      "description": "I need to support my back while sitting on the bed, what can I use?"
+    },
+    {
+      "object_id": [
+        36
+      ],
+      "object_name": [
+        "wardrobe"
+      ],
+      "description": "I want to store shoes, where can I put them?"
+    },
+    {
+      "object_id": [
+        22,
+        21
+      ],
+      "object_name": [
+        "door",
+        "door"
+      ],
+      "description": "I need to open a door, what should I use?"
+    },
+    {
+      "object_id": [
+        13,
+        39,
+        40
+      ],
+      "object_name": [
+        "bedside counter",
+        "counter",
+        "table"
+      ],
+      "description": "I want to place a cup of coffee, where can I put it?"
+    },
+    {
+      "object_id": [
+        66,
+        85
+      ],
+      "object_name": [
+        "smoke detector",
+        "smoke detector"
+      ],
+      "description": "I need to detect smoke in case of fire, what can help?"
+    },
+    {
+      "object_id": [
+        84,
+        83,
+        82,
+        81,
+        80
+      ],
+      "object_name": [
+        "ceiling light",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light",
+        "ceiling light"
+      ],
+      "description": "I want to illuminate the room, what can I use?"
+    },
+    {
+      "object_id": [
+        78,
+        3,
+        35
+      ],
+      "object_name": [
+        "bedside table",
+        "bathroom shelf",
+        "bath cabinet"
+      ],
+      "description": "I need to store books, where can I put them?"
+    },
+    {
+      "object_id": [
+        40
+      ],
+      "object_name": [
+        "table"
+      ],
+      "description": "I want to sit at a table, where can I go?"
+    },
+    {
+      "object_id": [
+        33,
+        35
+      ],
+      "object_name": [
+        "cabinet",
+        "bath cabinet"
+      ],
+      "description": "I need to store cleaning supplies, where can I put them?"
+    },
+    {
+      "object_id": [
+        1
+      ],
+      "object_name": [
+        "picture"
+      ],
+      "description": "I want to add something to the wall, what can I use?"
+    },
+    {
+      "object_id": [
+        22,
+        21,
+        14
+      ],
+      "object_name": [
+        "door",
+        "door",
+        "sliding door"
+      ],
+      "description": "I need to enter the room, what should I use?"
+    },
+    {
+      "object_id": [
+        13,
+        78
+      ],
+      "object_name": [
+        "bedside counter",
+        "bedside table"
+      ],
+      "description": "I want to place my alarm clock, where can I put it?"
+    },
+    {
+      "object_id": [
+        3,
+        35
+      ],
+      "object_name": [
+        "bathroom shelf",
+        "bath cabinet"
+      ],
+      "description": "I need to store towels, where can I put them?"
+    },
+    {
+      "object_id": [
+        20,
+        19
+      ],
+      "object_name": [
+        "sofa",
+        "chair"
+      ],
+      "description": "I want to relax in the living area, where can I sit?"
+    },
+    {
+      "object_id": [
+        33,
+        35
+      ],
+      "object_name": [
+        "cabinet",
+        "bath cabinet"
+      ],
+      "description": "I need to store dishes, where can I put them?"
+    },
+    {
+      "object_id": [
+        40,
+        13,
+        39
+      ],
+      "object_name": [
+        "table",
+        "bedside counter",
+        "counter"
+      ],
+      "description": "I want to place a vase, where can I put it?"
+    },
+    {
+      "object_id": [
+        78,
+        2
+      ],
+      "object_name": [
+        "bedside table",
+        "box"
+      ],
+      "description": "I need to store my jewelry, where can I put it?"
+    },
+    {
+      "object_id": [
+        40,
+        39
+      ],
+      "object_name": [
+        "table",
+        "counter"
+      ],
+      "description": "I want to place my laptop while working, where can I put it?"
+    },
+    {
+      "object_id": [
+        36
+      ],
+      "object_name": [
+        "wardrobe"
+      ],
+      "description": "I need to store my shoes, where can I put them?"
+    },
+    {
+      "object_id": [
+        40,
+        13
+      ],
+      "object_name": [
+        "table",
+        "bedside counter"
+      ],
+      "description": "I want to place a table lamp, where can I put it?"
+    },
+    {
+      "object_id": [
+        3,
+        35
+      ],
+      "object_name": [
+        "bathroom shelf",
+        "bath cabinet"
+      ],
+      "description": "I need to store my toiletries, where can I put them?"
+    },
+    {
+      "object_id": [
+        50
+      ],
+      "object_name": [
+        "standing lamp"
+      ],
+      "description": "How can you illuminate a room efficiently without mounting anything on the ceiling or walls?"
+    },
+    {
+      "object_id": [
+        78,
+        3
+      ],
+      "object_name": [
+        "bedside table",
+        "bathroom shelf"
+      ],
+      "description": "I need to store my medications, where can I put them?"
+    },
+    {
+      "object_id": [
+        42,
+        25
+      ],
+      "object_name": [
+        "telephone",
+        "telephone"
+      ],
+      "description": "I need to communicate with someone, what can I use?"
+    },
+    {
+      "object_id": [
+        33,
+        2
+      ],
+      "object_name": [
+        "cabinet",
+        "box"
+      ],
+      "description": "I need to store my office supplies, where can I put them?"
+    },
+    {
+      "object_id": [
+        32
+      ],
+      "object_name": [
+        "mirror"
+      ],
+      "description": "I want to place a mirror, where can I put it?"
+    },
+    {
+      "object_id": [
+        36
+      ],
+      "object_name": [
+        "wardrobe"
+      ],
+      "description": "I need to store my bed linens, where can I put them?"
+    },
+    {
+      "object_id": [
+        49
+      ],
+      "object_name": [
+        "trash bin"
+      ],
+      "description": "I need to dispose of waste, what can I use?"
+    },
+    {
+      "object_id": [
+        33
+      ],
+      "object_name": [
+        "cabinet"
+      ],
+      "description": "I need to store my cleaning tools, where can I put them?"
+    },
+    {
+      "object_id": [
+        19,
+        18
+      ],
+      "object_name": [
+        "chair",
+        "ottoman chair"
+      ],
+      "description": "I want to sit comfortably, what can I use?"
+    },
+    {
+      "object_id": [
+        33,
+        2
+      ],
+      "object_name": [
+        "cabinet",
+        "box"
+      ],
+      "description": "I need to store my electronic devices, where can I put them?"
+    },
+    {
+      "object_id": [
+        20
+      ],
+      "object_name": [
+        "sofa"
+      ],
+      "description": "I want to relax in the living room, what can I use?"
+    },
+    {
+      "object_id": [
+        36
+      ],
+      "object_name": [
+        "wardrobe"
+      ],
+      "description": "I need to store my winter clothes, where can I put them?"
+    },
+    {
+      "object_id": [
+        77
+      ],
+      "object_name": [
+        "coffee maker"
+      ],
+      "description": "I want to brew coffee, what can I use?"
+    },
+    {
+      "object_id": [
+        36
+      ],
+      "object_name": [
+        "wardrobe"
+      ],
+      "description": "I need to store my summer clothes, where can I put them?"
+    }
+  ]
+}
