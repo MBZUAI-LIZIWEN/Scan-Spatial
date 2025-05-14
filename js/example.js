@@ -919,6 +919,7 @@ function viewAnnotation(index) {
 
     const annotation = annotations[index];
     const objectIds = annotation.object_id;
+    const objectNames = annotation.object_name;
 
     if (!objectIds || objectIds.length === 0) {
         console.warn('此标注没有关联的对象ID');
@@ -944,76 +945,7 @@ function viewAnnotation(index) {
 
 // --- 添加结束 ---
 
-// 解析npy文件的函数
-async function parseNpyFile(arrayBuffer) {
-    // 这里是一个简化的npy解析器
-    // 实际应用中，你可能需要使用专门的库或在服务器端处理
-    try {
-        // 检查npy文件头
-        const headerLength = new DataView(arrayBuffer, 8, 2).getUint16(0, true);
-        const headerStr = new TextDecoder().decode(new Uint8Array(arrayBuffer, 10, headerLength));
-        
-        // 解析头部信息
-        const match = headerStr.match(/'descr':\s*'([<>]?)([a-zA-Z])(\d+)'/);
-        if (!match) {
-            throw new Error('无法解析npy文件头');
-        }
-        
-        const endianness = match[1] === '>' ? false : true;
-        const dataType = match[2];
-        const bytesPerElement = parseInt(match[3]);
-        
-        // 计算数据开始位置
-        const dataOffset = 10 + headerLength;
-        
-        // 根据数据类型创建适当的TypedArray
-        let result;
-        if (dataType === 'f') {
-            if (bytesPerElement === 4) {
-                result = new Float32Array(arrayBuffer, dataOffset);
-            } else if (bytesPerElement === 8) {
-                result = new Float64Array(arrayBuffer, dataOffset);
-            }
-        } else if (dataType === 'i') {
-            if (bytesPerElement === 1) {
-                result = new Int8Array(arrayBuffer, dataOffset);
-            } else if (bytesPerElement === 2) {
-                result = new Int16Array(arrayBuffer, dataOffset);
-            } else if (bytesPerElement === 4) {
-                result = new Int32Array(arrayBuffer, dataOffset);
-            }
-        } else if (dataType === 'u') {
-            if (bytesPerElement === 1) {
-                result = new Uint8Array(arrayBuffer, dataOffset);
-            } else if (bytesPerElement === 2) {
-                result = new Uint16Array(arrayBuffer, dataOffset);
-            } else if (bytesPerElement === 4) {
-                result = new Uint32Array(arrayBuffer, dataOffset);
-            }
-        }
-        
-        if (!result) {
-            throw new Error(`不支持的数据类型: ${dataType}${bytesPerElement}`);
-        }
-        
-        return Array.from(result);
-    } catch (error) {
-        console.error('解析npy文件失败:', error);
-        return null;
-    }
-}
 
-// --- 添加开始 ---
-// 根据实例ID生成稳定且不同的颜色
-function getColorForInstanceId(instanceId) {
-    // 使用 HSL 颜色空间生成颜色，以获得更好的区分度
-    // 基于 golden angle 来分散色调
-    const hue = (instanceId * 137.508) % 360; // 黄金角度近似值
-    // 饱和度和亮度可以稍微变化，或保持固定以获得更一致的外观
-    const saturation = 0.75; // 保持较高的饱和度
-    const lightness = 0.6;  // 保持适中的亮度
-    return new THREE.Color().setHSL(hue / 360, saturation, lightness);
-}
 // --- 添加结束 ---
     // 恢复相机视角
     const description = annotation.description;
@@ -1041,7 +973,9 @@ function getColorForInstanceId(instanceId) {
     }
     // --- 添加开始: 更新问题和答案显示 ---
     document.getElementById('current-question').textContent = annotation.description;
-    document.getElementById('current-answer').textContent = `Object IDs: ${objectIds.join(', ')}`;
+    let dis = `Objects: ${objectNames.map((name, i) => `${name}(${objectIds[i]})`).join(', ')}`
+    console.log("---===>>",dis);
+    document.getElementById('current-answer').textContent = dis;
     // --- 修改结束 ---
 }
 
