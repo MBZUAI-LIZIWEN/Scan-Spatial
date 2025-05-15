@@ -1,50 +1,52 @@
 [
-    
     {
-        "description": "我走进浴室，面对镜子和洗手台，请帮我分割出洗手台左边的靠近墙角的可以用来清理卫生间的物体",
+        "description": "I walk into the bathroom and stand in front of the mirror and sink. Please help me segment the object to the left of the sink, near the corner of the wall, that can be used to clean the bathroom.",
         "object_ids": [
-            28
+            17,
+            18,
+            19,
+            20
         ],
-        "full_text": "我走进浴室，面对镜子和洗手台，请帮我分割出洗手台左边的靠近墙角的可以用来清理卫生间的物体 [28]",
+        "full_text": "I walk into the bathroom and stand in front of the mirror and sink. Please help me segment the object to the left of the sink, near the corner of the wall, that can be used to clean the bathroom. [17] [18] [19] [20]",
         "camera_params": {
             "extrinsic": [
                 [
-                    0.9975731938273081,
-                    1.0408340855860843e-17,
-                    -0.0696255912519526,
+                    0.9999999999999757,
+                    0,
+                    -2.203995389583245e-07,
                     0
                 ],
                 [
-                    0.0398648080519589,
-                    0.8198630270679008,
-                    0.5711702144948027,
+                    2.2039953895821429e-07,
+                    1.000044449472881e-06,
+                    0.9999999999994756,
                     0
                 ],
                 [
-                    0.05708344800521821,
-                    -0.5725597059233721,
-                    0.8178733784130505,
+                    2.2040933557109346e-13,
+                    -0.9999999999994998,
+                    1.000044449472881e-06,
                     0
                 ],
                 [
-                    0.06332587512021355,
-                    -0.6351726411630775,
-                    0.9073128767694173,
+                    2.5738153241848676e-13,
+                    -1.167743334458132,
+                    1.1677952396585953e-06,
                     1
                 ]
             ],
             "intrinsic": {
-                "width": 1140,
-                "height": 687,
-                "fx": 447.6579155709542,
-                "fy": 447.6579155709542,
-                "cx": 570,
-                "cy": 343.5
+                "width": 1520,
+                "height": 870,
+                "fx": 566.9030371859245,
+                "fy": 566.9030371859245,
+                "cx": 760,
+                "cy": 435
             },
             "position": [
-                0.06332587512021355,
-                -0.6351726411630775,
-                0.9073128767694173
+                2.5238153241848676e-13,
+                -1.117743334458132,
+                1.1277952396585953e-06
             ],
             "target": [
                 0,
@@ -52,28 +54,29 @@
                 0
             ],
             "direction": [
-                -0.057083448005218224,
-                0.5725597059233722,
-                -0.8178733784130507
+                -2.404093355710935e-13,
+                0.9999999999995001,
+                -1.2000444494728813e-06
             ],
             "up": [
                 0,
                 1,
                 0
             ],
-            "view_description": "我走进浴室，面对镜子和洗手台，请帮我分割出洗手台左边的靠近墙角的可以用来清理卫生间的物体"
+            "view_description": ""
         }
     },
     {
-        "description": "我要打扫卫生要用那些东西：",
+        "description": "I am sitting on the toilet, facing the radiator. On my right is the shower area. Which objects can I use to clean my body?",
         "object_ids": [
-            28,
-            8,
-            33,
-            4,
-            17
+            43,
+            44,
+            45,
+            46,
+            48,
+            49
         ],
-        "full_text": "我要打扫卫生要用那些东西： [28] [8] [33] [4] [17]",
+        "full_text": "I am sitting on the toilet, facing the radiator. On my right is the shower area. Which objects can I use to clean my body? [43] [44] [45] [46] [48] [49]",
         "camera_params": {
             "extrinsic": [
                 [
@@ -129,7 +132,76 @@
                 1,
                 0
             ],
-            "view_description": "我要打扫卫生要用那些东西："
+            "view_description": ""
+        }
+    },
+    {
+        "description": "I walk into the bathroom, intending to brush my teeth and wash my face. Facing the mirror, please help me segment the white sink and the objects that can be used for brushing teeth and washing hands.",
+        "object_ids": [
+            1,
+            8,
+            11,
+            12,
+            15,
+            56
+        ],
+        "full_text": "I walk into the bathroom, intending to brush my teeth and wash my face. Facing the mirror, please help me segment the white sink and the objects that can be used for brushing teeth and washing hands. [1] [8] [11] [12] [15] [56]",
+        "camera_params": {
+            "extrinsic": [
+                [
+                    0.9999999999999757,
+                    0,
+                    -2.203995389583245e-07,
+                    0
+                ],
+                [
+                    2.2039953895821429e-07,
+                    1.000044449472881e-06,
+                    0.9999999999994756,
+                    0
+                ],
+                [
+                    2.2040933557109346e-13,
+                    -0.9999999999994998,
+                    1.000044449472881e-06,
+                    0
+                ],
+                [
+                    2.5738153241848676e-13,
+                    -1.167743334458132,
+                    1.1677952396585953e-06,
+                    1
+                ]
+            ],
+            "intrinsic": {
+                "width": 1520,
+                "height": 870,
+                "fx": 566.9030371859245,
+                "fy": 566.9030371859245,
+                "cx": 760,
+                "cy": 435
+            },
+            "position": [
+                2.6038153241848676e-13,
+                -1.197743334458132,
+                1.1977952396585953e-06
+            ],
+            "target": [
+                0,
+                0,
+                0
+            ],
+            "direction": [
+                -2.204093355710935e-13,
+                0.9999999999995001,
+                -1.0000444494728813e-06
+            ],
+            "up": [
+                0,
+                1,
+                0
+            ],
+            "view_description": ""
         }
     }
 ]

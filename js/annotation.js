@@ -471,7 +471,7 @@ function updateSelectionInfo(instanceIds) {
     if (instanceIds.length > 0) {
         const infoDiv = document.createElement('div');
         infoDiv.id = 'selection-info';
-        infoDiv.textContent = `选中的实例ID: ${instanceIds.join(', ')}`;
+        infoDiv.textContent = `selected object ID: ${instanceIds.join(', ')}`;
         infoDiv.style.position = 'absolute';
         infoDiv.style.bottom = '10px';
         infoDiv.style.left = '10px';
@@ -700,7 +700,7 @@ function addAnnotation() {
         full_text: fullText,
         camera_params: cameraParams // 使用新的 cameraParams 结构
     };
-    
+    console.log(annotation);
     // 添加到标注列表
     annotations.push(annotation);
 
