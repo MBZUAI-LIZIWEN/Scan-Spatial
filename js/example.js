@@ -148,7 +148,7 @@ async function loadPlyFile(filename) {
         const viewer = document.getElementById('viewer');
         const loadingDiv = document.createElement('div');
         loadingDiv.id = 'loading';
-        loadingDiv.textContent = '加载中...';
+        loadingDiv.textContent = 'loading...';
         loadingDiv.style.position = 'absolute';
         loadingDiv.style.top = '50%';
         loadingDiv.style.left = '50%';
@@ -472,7 +472,7 @@ function updateSelectionInfo(instanceIds) {
     if (instanceIds.length > 0) {
         const infoDiv = document.createElement('div');
         infoDiv.id = 'selection-info';
-        infoDiv.textContent = `选中的实例ID: ${instanceIds.join(', ')}`;
+        infoDiv.textContent = `Selected Object ID: ${instanceIds.join(', ')}`;
         infoDiv.style.position = 'absolute';
         infoDiv.style.bottom = '10px';
         infoDiv.style.left = '10px';
