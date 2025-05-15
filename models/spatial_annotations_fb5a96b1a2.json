@@ -1,0 +1,6490 @@
+{
+  "abs_annotations":[
+  {
+    "object_id": [
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      13,
+      23,
+      34,
+      36,
+      35,
+      33,
+      32,
+      31,
+      30,
+      29,
+      28,
+      3
+    ],
+    "object_name": [
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "sofa"
+    ],
+    "description": "Which objects can be used to sit on?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      84,
+      85
+    ],
+    "object_name": [
+      "bottle",
+      "bottle spray"
+    ],
+    "description": "What objects can hold drinks?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          5,
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      58,
+      56,
+      67,
+      46,
+      80,
+      77,
+      42,
+      88,
+      70,
+      45,
+      74,
+      73
+    ],
+    "object_name": [
+      "blackboard",
+      "book",
+      "books",
+      "books",
+      "books",
+      "books",
+      "bookshelf",
+      "mouse",
+      "telephone",
+      "whiteboard",
+      "whiteboard",
+      "whiteboard"
+    ],
+    "description": "Which objects are typically found in an office?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      62,
+      85,
+      27,
+      26,
+      57,
+      72,
+      69,
+      63
+    ],
+    "object_name": [
+      "heater",
+      "bottle spray",
+      "outlet",
+      "outlet",
+      "power socket",
+      "power socket",
+      "power strip",
+      "light switch"
+    ],
+    "description": "Which objects should children avoid for safety reasons?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      70,
+      88,
+      39,
+      38
+    ],
+    "object_name": [
+      "telephone",
+      "mouse",
+      "table",
+      "table"
+    ],
+    "description": "What objects are commonly used in combination with tables?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      13,
+      23,
+      34,
+      36,
+      35,
+      33,
+      32,
+      31,
+      30,
+      29,
+      28,
+      3,
+      70,
+      88
+    ],
+    "object_name": [
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "sofa",
+      "telephone",
+      "mouse"
+    ],
+    "description": "Which objects are used daily?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      44,
+      43,
+      40,
+      62
+    ],
+    "object_name": [
+      "air conditioner",
+      "air conditioner",
+      "air conditioner",
+      "heater"
+    ],
+    "description": "Which objects are used seasonally?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42,
+      83
+    ],
+    "object_name": [
+      "bookshelf",
+      "magazine rack"
+    ],
+    "description": "What can be used to store books?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          6,
+          7,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      53,
+      52,
+      51,
+      50,
+      49,
+      48,
+      47,
+      79,
+      12,
+      10,
+      2,
+      1
+    ],
+    "object_name": [
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp"
+    ],
+    "description": "Which objects provide light in the room?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          3,
+          4,
+          4,
+          5
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85,
+      65
+    ],
+    "object_name": [
+      "bottle spray",
+      "trash bin"
+    ],
+    "description": "What objects can be used for cleaning?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      44,
+      43,
+      40,
+      62,
+      70,
+      88,
+      71,
+      25
+    ],
+    "object_name": [
+      "air conditioner",
+      "air conditioner",
+      "air conditioner",
+      "heater",
+      "telephone",
+      "mouse",
+      "speaker",
+      "speaker"
+    ],
+    "description": "Which objects are electronic devices?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      87,
+      45,
+      74,
+      73,
+      58
+    ],
+    "object_name": [
+      "picture",
+      "whiteboard",
+      "whiteboard",
+      "whiteboard",
+      "blackboard"
+    ],
+    "description": "What objects can be used for decoration?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      44,
+      43,
+      40,
+      62
+    ],
+    "object_name": [
+      "air conditioner",
+      "air conditioner",
+      "air conditioner",
+      "heater"
+    ],
+    "description": "Which objects are used for temperature control?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      86,
+      68,
+      8,
+      24,
+      83
+    ],
+    "object_name": [
+      "box",
+      "box",
+      "box",
+      "box",
+      "magazine rack"
+    ],
+    "description": "What objects can be used to store small items?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      55,
+      54,
+      78
+    ],
+    "object_name": [
+      "smoke detector",
+      "smoke detector",
+      "smoke detector"
+    ],
+    "description": "Which objects are safety devices?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      71,
+      25,
+      82,
+      81
+    ],
+    "object_name": [
+      "speaker",
+      "speaker",
+      "toy",
+      "toy"
+    ],
+    "description": "What objects can be used for entertainment?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      58,
+      42,
+      56,
+      67,
+      46,
+      80,
+      77,
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      13,
+      23,
+      34,
+      36,
+      35,
+      33,
+      32,
+      31,
+      30,
+      29,
+      28,
+      45,
+      74,
+      73
+    ],
+    "object_name": [
+      "blackboard",
+      "bookshelf",
+      "book",
+      "books",
+      "books",
+      "books",
+      "books",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "whiteboard",
+      "whiteboard",
+      "whiteboard"
+    ],
+    "description": "Which objects are typically found in a classroom?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      58,
+      45,
+      74,
+      73
+    ],
+    "object_name": [
+      "blackboard",
+      "whiteboard",
+      "whiteboard",
+      "whiteboard"
+    ],
+    "description": "What objects can be used to write on?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42,
+      83,
+      86,
+      68,
+      8,
+      24
+    ],
+    "object_name": [
+      "bookshelf",
+      "magazine rack",
+      "box",
+      "box",
+      "box",
+      "box"
+    ],
+    "description": "Which objects are used for organization?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      83,
+      42
+    ],
+    "object_name": [
+      "magazine rack",
+      "bookshelf"
+    ],
+    "description": "What objects can be used to hold papers?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      70
+    ],
+    "object_name": [
+      "telephone"
+    ],
+    "description": "Which objects are used for communication?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      58,
+      45,
+      74,
+      73,
+      87
+    ],
+    "object_name": [
+      "blackboard",
+      "whiteboard",
+      "whiteboard",
+      "whiteboard",
+      "picture"
+    ],
+    "description": "What objects can be used to display information?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      27,
+      26,
+      57,
+      72,
+      69
+    ],
+    "object_name": [
+      "outlet",
+      "outlet",
+      "power socket",
+      "power socket",
+      "power strip"
+    ],
+    "description": "Which objects are used for power distribution?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      63
+    ],
+    "object_name": [
+      "light switch"
+    ],
+    "description": "What objects can be used to control lighting?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      3,
+      39,
+      38,
+      71,
+      25,
+      87
+    ],
+    "object_name": [
+      "sofa",
+      "table",
+      "table",
+      "speaker",
+      "speaker",
+      "picture"
+    ],
+    "description": "Which objects are typically found in a living room?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      84,
+      85
+    ],
+    "object_name": [
+      "bottle",
+      "bottle spray"
+    ],
+    "description": "What objects can be used to hold liquids?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      44,
+      43,
+      40,
+      76,
+      41
+    ],
+    "object_name": [
+      "air conditioner",
+      "air conditioner",
+      "air conditioner",
+      "window",
+      "window"
+    ],
+    "description": "Which objects are used for ventilation?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      82,
+      81
+    ],
+    "object_name": [
+      "toy",
+      "toy"
+    ],
+    "description": "What objects can be used to play with?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42,
+      86,
+      68,
+      8,
+      24,
+      83
+    ],
+    "object_name": [
+      "bookshelf",
+      "box",
+      "box",
+      "box",
+      "box",
+      "magazine rack"
+    ],
+    "description": "Which objects are used for storage?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      56,
+      67,
+      46,
+      80,
+      77
+    ],
+    "object_name": [
+      "book",
+      "books",
+      "books",
+      "books",
+      "books"
+    ],
+    "description": "What objects can be used to read?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      55,
+      54,
+      78
+    ],
+    "object_name": [
+      "smoke detector",
+      "smoke detector",
+      "smoke detector"
+    ],
+    "description": "Which objects are used for fire safety?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      65
+    ],
+    "object_name": [
+      "trash bin"
+    ],
+    "description": "What objects can be used to hold trash?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      71,
+      25
+    ],
+    "object_name": [
+      "speaker",
+      "speaker"
+    ],
+    "description": "Which objects are used for audio output?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "What objects can be used to spray liquids?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      61,
+      60,
+      59
+    ],
+    "object_name": [
+      "pipe",
+      "pipe",
+      "pipe"
+    ],
+    "description": "Which objects are used for structural support?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      83
+    ],
+    "object_name": [
+      "magazine rack"
+    ],
+    "description": "What objects can be used to hold magazines?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      88
+    ],
+    "object_name": [
+      "mouse"
+    ],
+    "description": "Which objects are used for computing?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      87
+    ],
+    "object_name": [
+      "picture"
+    ],
+    "description": "What items can display artwork?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          5,
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      27,
+      26,
+      57,
+      72,
+      69
+    ],
+    "object_name": [
+      "outlet",
+      "outlet",
+      "power socket",
+      "power socket",
+      "power strip"
+    ],
+    "description": "Which objects are used for electrical connections?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      44,
+      43,
+      40
+    ],
+    "object_name": [
+      "air conditioner",
+      "air conditioner",
+      "air conditioner"
+    ],
+    "description": "What objects can be used to cool a room?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      62
+    ],
+    "object_name": [
+      "heater"
+    ],
+    "description": "Which objects are used for heating?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      87
+    ],
+    "object_name": [
+      "picture"
+    ],
+    "description": "What objects can be used to display artwork?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      61,
+      60,
+      59
+    ],
+    "object_name": [
+      "pipe",
+      "pipe",
+      "pipe"
+    ],
+    "description": "Which objects are used for plumbing?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42
+    ],
+    "object_name": [
+      "bookshelf"
+    ],
+    "description": "What objects can be used to hold multiple books?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      55,
+      54,
+      78
+    ],
+    "object_name": [
+      "smoke detector",
+      "smoke detector",
+      "smoke detector"
+    ],
+    "description": "Which objects are used for emergency detection?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      71,
+      25
+    ],
+    "object_name": [
+      "speaker",
+      "speaker"
+    ],
+    "description": "What objects can be used to make announcements?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      75
+    ],
+    "object_name": [
+      "window frame"
+    ],
+    "description": "Which objects are used for window framing?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      83
+    ],
+    "object_name": [
+      "magazine rack"
+    ],
+    "description": "What objects can be used to hold writing utensils?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          8,
+          9,
+          9,
+          11
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      64
+    ],
+    "object_name": [
+      "doorframe"
+    ],
+    "description": "Which objects are used for door framing?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "What objects can be used to hold cleaning supplies?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      53,
+      52,
+      51,
+      50,
+      49,
+      48,
+      47,
+      79,
+      12,
+      10,
+      2,
+      1
+    ],
+    "object_name": [
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp"
+    ],
+    "description": "Which objects are used for room illumination?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      86,
+      68,
+      8,
+      24,
+      83
+    ],
+    "object_name": [
+      "box",
+      "box",
+      "box",
+      "box",
+      "magazine rack"
+    ],
+    "description": "What objects can be used to hold multiple items?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      71,
+      25
+    ],
+    "object_name": [
+      "speaker",
+      "speaker"
+    ],
+    "description": "Which objects are used for sound amplification?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      56
+    ],
+    "object_name": [
+      "book"
+    ],
+    "description": "What objects can be used to hold a single book?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          10,
+          11
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      55,
+      54,
+      78
+    ],
+    "object_name": [
+      "smoke detector",
+      "smoke detector",
+      "smoke detector"
+    ],
+    "description": "Which objects are used for electrical safety?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "What objects can be used to hold spray bottles?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      64
+    ],
+    "object_name": [
+      "doorframe"
+    ],
+    "description": "Which objects are used for room partitioning?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      82,
+      81
+    ],
+    "object_name": [
+      "toy",
+      "toy"
+    ],
+    "description": "What objects can be used to hold children's items?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          10,
+          11
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "Which objects are used for liquid application?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      83,
+      42
+    ],
+    "object_name": [
+      "magazine rack",
+      "bookshelf"
+    ],
+    "description": "What objects can be used to hold office supplies?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      44,
+      43,
+      40
+    ],
+    "object_name": [
+      "air conditioner",
+      "air conditioner",
+      "air conditioner"
+    ],
+    "description": "Which objects are used for air circulation?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      83,
+      42
+    ],
+    "object_name": [
+      "magazine rack",
+      "bookshelf"
+    ],
+    "description": "What objects can be used to hold display items?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "cs",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      84
+    ],
+    "object_name": [
+      "bottle"
+    ],
+    "description": "I'm thirsty, what can I use to drink water?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          8,
+          9,
+          5,
+          6
+        ]
+      ],
+      [
+        2,
+        [
+          10,
+          11,
+          11,
+          12
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "I need to clean a surface, what should I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      83,
+      42,
+      56,
+      67,
+      46,
+      80,
+      77
+    ],
+    "object_name": [
+      "magazine rack",
+      "bookshelf",
+      "book",
+      "books",
+      "books",
+      "books",
+      "books"
+    ],
+    "description": "I want to read something, where can I find reading materials?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          5,
+          6
+        ]
+      ],
+      [
+        2,
+        [
+          10,
+          11,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      27,
+      26,
+      57,
+      72,
+      69
+    ],
+    "object_name": [
+      "outlet",
+      "outlet",
+      "power socket",
+      "power socket",
+      "power strip"
+    ],
+    "description": "I need to charge my phone, where can I plug it in?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      3,
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      13,
+      23,
+      34,
+      36,
+      35,
+      33,
+      32,
+      31,
+      30,
+      29,
+      28
+    ],
+    "object_name": [
+      "sofa",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "description": "I want to relax, where can I sit comfortably?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ],
+      [
+        2,
+        [
+          4,
+          5,
+          0,
+          1
+        ]
+      ],
+      [
+        3,
+        [
+          9,
+          10,
+          0,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      65
+    ],
+    "object_name": [
+      "trash bin"
+    ],
+    "description": "I need to throw something away, where should I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          5,
+          6
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      58,
+      45,
+      74,
+      73
+    ],
+    "object_name": [
+      "blackboard",
+      "whiteboard",
+      "whiteboard",
+      "whiteboard"
+    ],
+    "description": "I want to write some notes, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42,
+      86,
+      68,
+      8,
+      24,
+      83
+    ],
+    "object_name": [
+      "bookshelf",
+      "box",
+      "box",
+      "box",
+      "box",
+      "magazine rack"
+    ],
+    "description": "I need to store some items, where can I put them?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      70
+    ],
+    "object_name": [
+      "telephone"
+    ],
+    "description": "I want to make a phone call, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      63
+    ],
+    "object_name": [
+      "light switch"
+    ],
+    "description": "I need to turn on the lights, what should I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          12,
+          13,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      71,
+      25
+    ],
+    "object_name": [
+      "speaker",
+      "speaker"
+    ],
+    "description": "I want to listen to music, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      62
+    ],
+    "object_name": [
+      "heater"
+    ],
+    "description": "I need to warm up the room, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      44,
+      43,
+      40
+    ],
+    "object_name": [
+      "air conditioner",
+      "air conditioner",
+      "air conditioner"
+    ],
+    "description": "I want to cool down the room, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38
+    ],
+    "object_name": [
+      "table",
+      "table"
+    ],
+    "description": "I need to work on my computer, where can I place my mouse?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          14,
+          15
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      87
+    ],
+    "object_name": [
+      "picture"
+    ],
+    "description": "How can I showcase an image prominently?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42,
+      83
+    ],
+    "object_name": [
+      "bookshelf",
+      "magazine rack"
+    ],
+    "description": "I need to organize my books, where should I put them?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      82,
+      81
+    ],
+    "object_name": [
+      "toy",
+      "toy"
+    ],
+    "description": "I want to play with something, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "I need to spray some liquid, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      83
+    ],
+    "object_name": [
+      "magazine rack"
+    ],
+    "description": "I want to read a magazine, where can I find one?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      64
+    ],
+    "object_name": [
+      "doorframe"
+    ],
+    "description": "I need to hang my coat, where can I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      76,
+      41
+    ],
+    "object_name": [
+      "window",
+      "window"
+    ],
+    "description": "I want to look outside, where should I go?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          2,
+          3,
+          0,
+          1
+        ]
+      ],
+      [
+        2,
+        [
+          4,
+          5,
+          0,
+          1
+        ]
+      ],
+      [
+        3,
+        [
+          10,
+          11,
+          0,
+          1
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      55,
+      54,
+      78
+    ],
+    "object_name": [
+      "smoke detector",
+      "smoke detector",
+      "smoke detector"
+    ],
+    "description": "I need to detect smoke, what device can do that?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          5,
+          6
+        ]
+      ],
+      [
+        2,
+        [
+          10,
+          11,
+          11,
+          12
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      53,
+      52,
+      51,
+      50,
+      49,
+      48,
+      47,
+      79,
+      12,
+      10,
+      2,
+      1
+    ],
+    "object_name": [
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp",
+      "ceiling lamp"
+    ],
+    "description": "I want to illuminate the room, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      69
+    ],
+    "object_name": [
+      "power strip"
+    ],
+    "description": "I need to connect multiple devices to power, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          13,
+          14,
+          10,
+          11
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38
+    ],
+    "object_name": [
+      "table",
+      "table"
+    ],
+    "description": "I want to store my computer mouse, where can I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          13,
+          14
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      86,
+      68,
+      8,
+      24
+    ],
+    "object_name": [
+      "box",
+      "box",
+      "box",
+      "box"
+    ],
+    "description": "I need to hide some small items, where can I put them?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          13,
+          14
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      58,
+      45,
+      74,
+      73
+    ],
+    "object_name": [
+      "blackboard",
+      "whiteboard",
+      "whiteboard",
+      "whiteboard"
+    ],
+    "description": "I want to write on a vertical surface, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          8,
+          9
+        ]
+      ],
+      [
+        2,
+        [
+          13,
+          14,
+          10,
+          11
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      76,
+      41
+    ],
+    "object_name": [
+      "window",
+      "window"
+    ],
+    "description": "I need to ventilate the room, what can I open?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          6,
+          8,
+          9
+        ]
+      ],
+      [
+        2,
+        [
+          13,
+          14,
+          10,
+          11
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38
+    ],
+    "object_name": [
+      "table",
+      "table"
+    ],
+    "description": "I want to place my drink while working, where can I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          13,
+          14,
+          14,
+          15
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      61,
+      60,
+      59
+    ],
+    "object_name": [
+      "pipe",
+      "pipe",
+      "pipe"
+    ],
+    "description": "I need to access water pipes, where should I look?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      87,
+      58,
+      45,
+      74,
+      73
+    ],
+    "object_name": [
+      "picture",
+      "blackboard",
+      "whiteboard",
+      "whiteboard",
+      "whiteboard"
+    ],
+    "description": "I want to decorate the room, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38,
+      86,
+      68,
+      8,
+      24
+    ],
+    "object_name": [
+      "table",
+      "table",
+      "box",
+      "box",
+      "box",
+      "box"
+    ],
+    "description": "I need to store my spray bottle, where should I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          13,
+          14
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      13,
+      23
+    ],
+    "object_name": [
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "description": "I want to sit near a window, which chairs are closest?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      27,
+      26,
+      57,
+      72,
+      69
+    ],
+    "object_name": [
+      "outlet",
+      "outlet",
+      "power socket",
+      "power socket",
+      "power strip"
+    ],
+    "description": "I need to plug in my laptop, where can I do that?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          13,
+          14
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      58,
+      45,
+      74,
+      73
+    ],
+    "object_name": [
+      "blackboard",
+      "whiteboard",
+      "whiteboard",
+      "whiteboard"
+    ],
+    "description": "I want to display important information, where can I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42
+    ],
+    "object_name": [
+      "bookshelf"
+    ],
+    "description": "I need to store my books vertically, where should I put them?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          13,
+          14
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      3
+    ],
+    "object_name": [
+      "sofa"
+    ],
+    "description": "I want to sit with multiple people, where can we gather?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      62
+    ],
+    "object_name": [
+      "heater"
+    ],
+    "description": "I need to keep the room warm in winter, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          14,
+          15,
+          11,
+          12
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      3
+    ],
+    "object_name": [
+      "sofa"
+    ],
+    "description": "I want to read while lying down, where can I do that?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          12,
+          13,
+          13,
+          14
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      83
+    ],
+    "object_name": [
+      "magazine rack"
+    ],
+    "description": "I need to store my magazines neatly, where should I put them?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          13,
+          14
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      44,
+      43,
+      40,
+      62
+    ],
+    "object_name": [
+      "air conditioner",
+      "air conditioner",
+      "air conditioner",
+      "heater"
+    ],
+    "description": "I want to adjust the room temperature, what can I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42,
+      39,
+      38
+    ],
+    "object_name": [
+      "bookshelf",
+      "table",
+      "table"
+    ],
+    "description": "I need to place multiple books, where can I put them?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38
+    ],
+    "object_name": [
+      "table",
+      "table"
+    ],
+    "description": "I want to sit at a workspace, where should I go?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "I need to spray some cleaner, what should I use?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      58,
+      45,
+      74,
+      73,
+      87
+    ],
+    "object_name": [
+      "blackboard",
+      "whiteboard",
+      "whiteboard",
+      "whiteboard",
+      "picture"
+    ],
+    "description": "I want to display my child's drawing, where can I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          8,
+          9
+        ]
+      ],
+      [
+        2,
+        [
+          13,
+          14,
+          14,
+          15
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      86,
+      68,
+      8,
+      24,
+      42
+    ],
+    "object_name": [
+      "box",
+      "box",
+      "box",
+      "box",
+      "bookshelf"
+    ],
+    "description": "I need to store office supplies, where can I put them?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      34,
+      36,
+      35,
+      33,
+      32,
+      31,
+      30,
+      29,
+      28
+    ],
+    "object_name": [
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "description": "I want to sit near the whiteboard, which chairs are closest?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      27,
+      26,
+      57,
+      72,
+      69
+    ],
+    "object_name": [
+      "outlet",
+      "outlet",
+      "power socket",
+      "power socket",
+      "power strip"
+    ],
+    "description": "I need to connect my speaker to power, where can I plug it in?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          13,
+          14,
+          14,
+          15
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38
+    ],
+    "object_name": [
+      "table",
+      "table"
+    ],
+    "description": "What can I use to safely hold a bottle?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          0,
+          1
+        ]
+      ],
+      [
+        2,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      86,
+      68,
+      8,
+      24
+    ],
+    "object_name": [
+      "box",
+      "box",
+      "box",
+      "box"
+    ],
+    "description": "I need to store my toys, where should I put them?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      3,
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      13,
+      23,
+      34,
+      36,
+      35,
+      33,
+      32,
+      31,
+      30,
+      29,
+      28
+    ],
+    "object_name": [
+      "sofa",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "description": "I want to sit while talking on the phone, where should I go?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          6,
+          7,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38
+    ],
+    "object_name": [
+      "table",
+      "table"
+    ],
+    "description": "I need to place my computer, where should I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      58,
+      45,
+      74,
+      73
+    ],
+    "object_name": [
+      "blackboard",
+      "whiteboard",
+      "whiteboard",
+      "whiteboard"
+    ],
+    "description": "I want to display a schedule, where can I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38,
+      86,
+      68,
+      8,
+      24
+    ],
+    "object_name": [
+      "table",
+      "table",
+      "box",
+      "box",
+      "box",
+      "box"
+    ],
+    "description": "I need to store my bottle spray, where should I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          13,
+          14
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      13,
+      23
+    ],
+    "object_name": [
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "description": "I want to sit near the bookshelf, which chairs are closest?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38
+    ],
+    "object_name": [
+      "table",
+      "table"
+    ],
+    "description": "I need to place my telephone, where should I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          11,
+          12,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42,
+      83
+    ],
+    "object_name": [
+      "bookshelf",
+      "magazine rack"
+    ],
+    "description": "I want to store my reading materials vertically, where can I put them?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          13,
+          14,
+          14,
+          15
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      27,
+      26,
+      57,
+      72,
+      69
+    ],
+    "object_name": [
+      "outlet",
+      "outlet",
+      "power socket",
+      "power socket",
+      "power strip"
+    ],
+    "description": "I need to plug in my heater, where can I do that?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          12,
+          13,
+          13,
+          14
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38
+    ],
+    "object_name": [
+      "table",
+      "table"
+    ],
+    "description": "What can I use to hold a trash bin conveniently?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          0,
+          1
+        ]
+      ],
+      [
+        2,
+        [
+          6,
+          7,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38
+    ],
+    "object_name": [
+      "table",
+      "table"
+    ],
+    "description": "I need to store my spray bottle near my workspace, where should I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          15,
+          16,
+          16,
+          17
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      3,
+      22,
+      21,
+      20,
+      19,
+      18,
+      17,
+      16,
+      13,
+      23,
+      34,
+      36,
+      35,
+      33,
+      32,
+      31,
+      30,
+      29,
+      28
+    ],
+    "object_name": [
+      "sofa",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair",
+      "chair"
+    ],
+    "description": "I want to sit while reading a magazine, where should I go?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          6,
+          7,
+          8,
+          9
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39,
+      38
+    ],
+    "object_name": [
+      "table",
+      "table"
+    ],
+    "description": "I need to place my computer mouse near my workspace, where should I put it?",
+    "scene_id": "fb5a96b1a2",
+    "question_type": "hi",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          7,
+          8
+        ]
+      ],
+      [
+        2,
+        [
+          15,
+          16,
+          16,
+          17
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      25
+    ],
+    "object_name": [
+      "speaker"
+    ],
+    "description": "A speaker that is 2.02 meters away from the trash bin",
+    "question_type": "abs",
+    "reference_id": [
+      65
+    ],
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      71
+    ],
+    "object_name": [
+      "speaker"
+    ],
+    "description": "A device used to produce sound that is 3.55 meters away from the trash bin",
+    "question_type": "abs",
+    "reference_id": [
+      65
+    ],
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      73
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "A whiteboard that is 0.68 meters away from the table",
+    "question_type": "abs",
+    "reference_id": [
+      39
+    ],
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      74
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "An object used for writing that is 1.69 meters away from the table",
+    "question_type": "abs",
+    "reference_id": [
+      39
+    ],
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          3,
+          4,
+          5,
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      71
+    ],
+    "object_name": [
+      "speaker"
+    ],
+    "description": "A speaker that is 1.29 meters away from the table",
+    "question_type": "abs",
+    "reference_id": [
+      39
+    ],
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      25
+    ],
+    "object_name": [
+      "speaker"
+    ],
+    "description": "An object that produces sound that is 2.21 meters away from the table",
+    "question_type": "abs",
+    "reference_id": [
+      39
+    ],
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          5,
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      22
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "A chair that is 0.16 meters away from the air conditioner",
+    "question_type": "abs",
+    "reference_id": [
+      40
+    ],
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      34
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "A seat that is 1.62 meters away from the air conditioner",
+    "question_type": "abs",
+    "reference_id": [
+      40
+    ],
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      13
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "A chair that is 3.12 meters away from the air conditioner",
+    "question_type": "abs",
+    "reference_id": [
+      40
+    ],
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      59
+    ],
+    "object_name": [
+      "pipe"
+    ],
+    "description": "A pipe that is 0.22 meters away from the blackboard",
+    "question_type": "abs",
+    "reference_id": [
+      58
+    ],
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      74
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "Facing away from the door towards the cabinet, a white item with a stand in the front right that can be used for writing",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      21
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Facing away from the door towards the cabinet, the nearest seating furniture in front",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42
+    ],
+    "object_name": [
+      "bookshelf"
+    ],
+    "description": "Facing away from the door towards the cabinet, an item in front used for displaying books",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          17,
+          18,
+          18,
+          19
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      58
+    ],
+    "object_name": [
+      "blackboard"
+    ],
+    "description": "Facing away from the door towards the cabinet, an item on the left used for writing",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          16,
+          17,
+          18,
+          19
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      81
+    ],
+    "object_name": [
+      "toy"
+    ],
+    "description": "Facing away from the door towards the cabinet, a yellow item in front that can be used for playing",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      38
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "Facing away from the door towards the cabinet, a square-surfaced object in front used for placing items",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          21,
+          22,
+          22,
+          23
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      19
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Facing away from the door towards the cabinet, the nearest black item in front",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "Facing away from the door towards the cabinet, a light blue item on the table in front",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      34
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Sitting on the black sofa facing the blackboard, the nearest blue item in front",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      22
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Sitting on the black sofa facing the blackboard, the nearest piece of furniture for sitting on the left",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      [
+        3,
+        [
+          18,
+          19,
+          21,
+          22
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      65
+    ],
+    "object_name": [
+      "trash bin"
+    ],
+    "description": "Sitting on the black sofa facing the blackboard, an item in the front left used for holding garbage",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      [
+        3,
+        [
+          20,
+          21,
+          21,
+          22
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      17
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Sitting on the black sofa facing the blackboard, a black item on the left used for sitting",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      86
+    ],
+    "object_name": [
+      "box"
+    ],
+    "description": "Sitting on the black sofa facing the blackboard, a white rectangular prism in front",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      19
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Sitting on the black sofa facing the blackboard, the nearest black item with wheels in front",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      38
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "Sitting on the black sofa facing the blackboard, a square-surfaced object in front used for placing items",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ],
+      [
+        3,
+        [
+          22,
+          23,
+          23,
+          24
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      32
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Sitting on the black sofa facing the blackboard, the black wheeled object farthest directly in front of me",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          7,
+          8,
+          9,
+          10
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      32
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Facing the door with back to the bookshelf, the black wheeled object in the front right",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      19
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Facing the door with back to the bookshelf, the black wheeled object in the front left",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      17
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Facing the door with back to the bookshelf, the farthest black object in the front left that can be used for sitting",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          4,
+          5
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      65
+    ],
+    "object_name": [
+      "trash bin"
+    ],
+    "description": "Facing the black sofa with back to the blackboard, the object in the front right used for containing waste",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          5,
+          6
+        ]
+      ],
+      [
+        2,
+        [
+          21,
+          22,
+          22,
+          23
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      17
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Facing the black sofa with back to the blackboard, the black object in the front right used for sitting",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          5,
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "Facing the black sofa with back to the blackboard, the round-surfaced object in the front used for placing items",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          5,
+          6
+        ]
+      ],
+      [
+        2,
+        [
+          24,
+          25,
+          25,
+          26
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      25
+    ],
+    "object_name": [
+      "speaker"
+    ],
+    "description": "Facing the black sofa with back to the blackboard, the nearest black object in the front right used for playing sound",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          5,
+          6
+        ]
+      ],
+      [
+        2,
+        [
+          23,
+          24,
+          24,
+          25
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      74
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "Facing the black sofa with back to the blackboard, the white object in the front left with colored rectangles that can be used for writing",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          5,
+          6
+        ]
+      ],
+      [
+        2,
+        [
+          19,
+          20,
+          22,
+          23
+        ]
+      ],
+      [
+        3,
+        [
+          27,
+          28,
+          29,
+          30
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      45
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "Facing the black sofa with back to the blackboard, the white object in the front right embedded in the wall",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          5,
+          6
+        ]
+      ],
+      [
+        2,
+        [
+          20,
+          21,
+          23,
+          24
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      19
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Facing the black sofa with back to the blackboard, the black wheeled object directly in front",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          2,
+          5,
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      86
+    ],
+    "object_name": [
+      "box"
+    ],
+    "description": "A white rectangular prism on the desk",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      81
+    ],
+    "object_name": [
+      "toy"
+    ],
+    "description": "A yellow object beneath the bookshelf",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      32
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "A black object closest to the blackboard",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      84
+    ],
+    "object_name": [
+      "bottle"
+    ],
+    "description": "A white cylinder on the desk",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "A light blue object on the desk",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      65
+    ],
+    "object_name": [
+      "trash bin"
+    ],
+    "description": "An object for waste disposal closest to the door",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "A circular surface for placing objects next to the sofa",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      83
+    ],
+    "object_name": [
+      "magazine rack"
+    ],
+    "description": "A storage unit for periodicals beside the bookshelf",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      48
+    ],
+    "object_name": [
+      "ceiling lamp"
+    ],
+    "description": "An object for illumination directly above the round table",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      36
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "A black object closest to the bookshelf",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      59
+    ],
+    "object_name": [
+      "pipe"
+    ],
+    "description": "A cylinder closest to the blackboard",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      45
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "A white rectangular prism for projection closest to the round table",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42
+    ],
+    "object_name": [
+      "bookshelf"
+    ],
+    "description": "An object for displaying books directly behind the yellow toy car",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          4,
+          5,
+          5,
+          6
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      38
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "A square surface for placing objects directly in front of the blackboard",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          6,
+          7
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      73
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "A white rectangular prism for writing next to the sofa",
+    "question_type": "relative_position",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      21
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "A blue seating object facing the sofa with back to the blackboard",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          7,
+          8
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      38
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "A square surface for placing objects directly ahead while facing the sofa with back to the blackboard",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          5,
+          6,
+          6,
+          7
+        ]
+      ],
+      [
+        2,
+        [
+          10,
+          11,
+          12,
+          13
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      18
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "Facing away from the blackboard and towards the sofa, a black object with wheels in the front left",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "Facing away from the blackboard and towards the black sofa, a light blue object on the table directly ahead",
+    "question_type": "first_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      74
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "At the perspective (-4.24, -1.30, -7.11, 0.01, 0.99, 0.11, -0.00, 0.11, -0.99), a white item with a stand in the front right that can be used for writing",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      21
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (-4.24, -1.30, -7.11, 0.01, 0.99, 0.11, -0.00, 0.11, -0.99), the nearest seating furniture in front",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42
+    ],
+    "object_name": [
+      "bookshelf"
+    ],
+    "description": "At the perspective (-4.24, -1.30, -7.11, 0.01, 0.99, 0.11, -0.00, 0.11, -0.99), an item in front used for displaying books",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          36,
+          37,
+          37,
+          38
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      58
+    ],
+    "object_name": [
+      "blackboard"
+    ],
+    "description": "At the perspective (-4.24, -1.30, -7.11, 0.01, 0.99, 0.11, -0.00, 0.11, -0.99), an item on the left used for writing",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          35,
+          36,
+          37,
+          38
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      81
+    ],
+    "object_name": [
+      "toy"
+    ],
+    "description": "At the perspective (-4.24, -1.30, -7.11, 0.01, 0.99, 0.11, -0.00, 0.11, -0.99), a yellow item in front that can be used for playing",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      38
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "At the perspective (-4.24, -1.30, -7.11, 0.01, 0.99, 0.11, -0.00, 0.11, -0.99), a square-surfaced object in front used for placing items",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          40,
+          41,
+          41,
+          42
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      19
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (-4.24, -1.30, -7.11, 0.01, 0.99, 0.11, -0.00, 0.11, -0.99), the nearest black item in front",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "At the perspective (-4.24, -1.30, -7.11, 0.01, 0.99, 0.11, -0.00, 0.11, -0.99), a light blue item on the table in front",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      34
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (-4.16, -1.19, 0.80, -0.95, -0.13, 0.28, -0.29, 0.08, -0.95), the nearest blue item in front",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      22
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (-4.16, -1.19, 0.80, -0.95, -0.13, 0.28, -0.29, 0.08, -0.95), the nearest piece of furniture for sitting on the left",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          37,
+          38,
+          40,
+          41
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      65
+    ],
+    "object_name": [
+      "trash bin"
+    ],
+    "description": "At the perspective (-4.16, -1.19, 0.80, -0.95, -0.13, 0.28, -0.29, 0.08, -0.95), an item in the front left used for holding garbage",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          39,
+          40,
+          40,
+          41
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      17
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (-4.16, -1.19, 0.80, -0.95, -0.13, 0.28, -0.29, 0.08, -0.95), a black item on the left used for sitting",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      86
+    ],
+    "object_name": [
+      "box"
+    ],
+    "description": "At the perspective (-4.16, -1.19, 0.80, -0.95, -0.13, 0.28, -0.29, 0.08, -0.95), a white rectangular prism in front",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      19
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (-4.16, -1.19, 0.80, -0.95, -0.13, 0.28, -0.29, 0.08, -0.95), the nearest black item with wheels in front",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      38
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "At the perspective (-4.16, -1.19, 0.80, -0.95, -0.13, 0.28, -0.29, 0.08, -0.95), a square-surfaced object in front used for placing items",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          41,
+          42,
+          42,
+          43
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      32
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (-4.16, -1.19, 0.80, -0.95, -0.13, 0.28, -0.29, 0.08, -0.95), the black wheeled object farthest directly in front of me",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      32
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (6.01, -1.55, -1.06, 0.38, -0.90, 0.22, 0.05, -0.22, -0.97), the black wheeled object in the front right",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      19
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (6.01, -1.55, -1.06, 0.38, -0.90, 0.22, 0.05, -0.22, -0.97), the black wheeled object in the front left",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          39,
+          40,
+          2,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      17
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (6.01, -1.55, -1.06, 0.38, -0.90, 0.22, 0.05, -0.22, -0.97), the farthest black object in the front left that can be used for sitting",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      65
+    ],
+    "object_name": [
+      "trash bin"
+    ],
+    "description": "At the perspective (4.42, -0.86, -6.37, 0.98, -0.11, 0.14, 0.14, -0.01, -0.99), the object in the front right used for containing waste",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          39,
+          40,
+          40,
+          41
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      17
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (4.42, -0.86, -6.37, 0.98, -0.11, 0.14, 0.14, -0.01, -0.99), the black object in the front right used for sitting",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "At the perspective (4.42, -0.86, -6.37, 0.98, -0.11, 0.14, 0.14, -0.01, -0.99), the round-surfaced object in the front used for placing items",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          42,
+          43,
+          43,
+          44
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      25
+    ],
+    "object_name": [
+      "speaker"
+    ],
+    "description": "At the perspective (4.42, -0.86, -6.37, 0.98, -0.11, 0.14, 0.14, -0.01, -0.99), the nearest black object in the front right used for playing sound",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          41,
+          42,
+          42,
+          43
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      74
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "At the perspective (4.06, -1.36, -6.71, 0.99, 0.04, 0.13, 0.13, -0.07, -0.99), the white object in the front left with colored rectangles that can be used for writing",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          36,
+          37,
+          39,
+          40
+        ]
+      ],
+      [
+        2,
+        [
+          44,
+          45,
+          46,
+          47
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      45
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "At the perspective (4.06, -1.36, -6.71, 0.99, 0.04, 0.13, 0.13, -0.07, -0.99), the white object in the front right embedded in the wall",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          37,
+          38,
+          40,
+          41
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      19
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (4.06, -1.36, -6.71, 0.99, 0.04, 0.13, 0.13, -0.07, -0.99), the black wheeled object directly in front",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      81
+    ],
+    "object_name": [
+      "toy"
+    ],
+    "description": "At the perspective (-2.61, -1.19, -6.65, 0.63, 0.78, -0.01, 0.02, -0.03, -1.00), the plaything closest to me",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      36
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (-2.61, -1.19, -6.65, 0.63, 0.78, -0.01, 0.02, -0.03, -1.00), the seat closest to me",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      42
+    ],
+    "object_name": [
+      "bookshelf"
+    ],
+    "description": "At the perspective (-2.61, -1.19, -6.65, 0.63, 0.78, -0.01, 0.02, -0.03, -1.00), the object in the front left used for displaying books",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          39,
+          40,
+          40,
+          41
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      38
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "At the perspective (-2.61, -1.19, -6.65, 0.63, 0.78, -0.01, 0.02, -0.03, -1.00), the object in the front right with a square surface used for placing items",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          43,
+          44,
+          44,
+          45
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      74
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "At the perspective (-2.61, -1.19, -6.65, 0.63, 0.78, -0.01, 0.02, -0.03, -1.00), the white object in the front right with a stand that can be used for writing",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      17
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (4.18, -0.96, -6.56, 0.96, 0.27, 0.10, 0.12, -0.05, -0.99), the seat closest to me",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      23
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (4.18, -0.96, -6.56, 0.96, 0.27, 0.10, 0.12, -0.05, -0.99), the piece of furniture for sitting beside the sofa",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          35,
+          36,
+          38,
+          39
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      25
+    ],
+    "object_name": [
+      "speaker"
+    ],
+    "description": "At the perspective (4.18, -0.96, -6.56, 0.96, 0.27, 0.10, 0.12, -0.05, -0.99), the audio device closest to me",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      71
+    ],
+    "object_name": [
+      "speaker"
+    ],
+    "description": "At the perspective (4.18, -0.96, -6.56, 0.96, 0.27, 0.10, 0.12, -0.05, -0.99), the speaker farthest from me",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      19
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (4.18, -0.96, -6.56, 0.96, 0.27, 0.10, 0.12, -0.05, -0.99), a black wheeled object in the front left",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          38,
+          39,
+          2,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      65
+    ],
+    "object_name": [
+      "trash bin"
+    ],
+    "description": "At the perspective (4.18, -0.96, -6.56, 0.96, 0.27, 0.10, 0.12, -0.05, -0.99), a white object for disposing waste in the front right",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          34,
+          35,
+          36,
+          37
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      35
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (3.47, -1.27, -1.07, 0.47, -0.88, 0.08, 0.06, -0.06, -1.00), the chair closest to me",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      17
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (3.47, -1.27, -1.07, 0.47, -0.88, 0.08, 0.06, -0.06, -1.00), a seating object next to the garbage bin",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      74
+    ],
+    "object_name": [
+      "whiteboard"
+    ],
+    "description": "At the perspective (3.47, -1.27, -1.07, 0.47, -0.88, 0.08, 0.06, -0.06, -1.00), the whiteboard closest to me",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      19
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (3.47, -1.27, -1.07, 0.47, -0.88, 0.08, 0.06, -0.06, -1.00), a black wheeled object directly in front",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      40
+    ],
+    "object_name": [
+      "air conditioner"
+    ],
+    "description": "At the perspective (3.47, -1.27, -1.07, 0.47, -0.88, 0.08, 0.06, -0.06, -1.00), a white rectangular prism on the floor directly ahead",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      39
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "At the perspective (3.47, -1.27, -1.07, 0.47, -0.88, 0.08, 0.06, -0.06, -1.00), a circular surface for placing objects directly ahead",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          35,
+          36,
+          36,
+          37
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      21
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (4.36, 0.04, -7.04, 0.98, 0.04, 0.21, 0.21, 0.03, -0.98), a blue seating object closest",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      38
+    ],
+    "object_name": [
+      "table"
+    ],
+    "description": "At the perspective (4.36, 0.04, -7.04, 0.98, 0.04, 0.21, 0.21, 0.03, -0.98), a square surface for placing objects directly ahead",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          33,
+          34,
+          34,
+          35
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      16
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (2.80, -1.78, 1.41, -0.29, -0.95, 0.13, 0.02, -0.14, -0.99), a black seating object closest in the front left",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      32
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (2.80, -1.78, 1.41, -0.29, -0.95, 0.13, 0.02, -0.14, -0.99), a black wheeled seating object in the front right",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      34
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (-5.23, -1.32, -3.59, -0.45, 0.89, 0.05, -0.05, 0.03, -1.00), the nearest blue object that can be used for sitting",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      18
+    ],
+    "object_name": [
+      "chair"
+    ],
+    "description": "At the perspective (2.64, 0.04, -6.68, 0.96, 0.15, 0.24, 0.24, 0.03, -0.97), a black object with wheels in the front left",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          37,
+          38,
+          2,
+          3
+        ]
+      ]
+    ]
+  },
+  {
+    "object_id": [
+      85
+    ],
+    "object_name": [
+      "bottle spray"
+    ],
+    "description": "At the perspective (4.82, -0.95, -6.24, 0.99, -0.01, 0.16, 0.16, -0.13, -0.98), a light blue object on the table directly ahead",
+    "question_type": "camera_view",
+    "scene_id": "fb5a96b1a2",
+    "verb_obj_roberta_span": [
+      [
+        1,
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    ]
+  }
+]
+}

@@ -18,7 +18,7 @@ function init() {
     initScene();
     
     // 获取PLY文件列表
-    fetchPlyFiles();
+    // fetchPlyFiles();
     
     // 添加事件监听器
     document.getElementById('add-annotation').addEventListener('click', addAnnotation);
@@ -27,7 +27,7 @@ function init() {
     const viewer = document.getElementById('viewer');
     const tipDiv = document.createElement('div');
     tipDiv.id = 'selection-tip';
-    tipDiv.textContent = '提示：双击可选择对象';
+    tipDiv.textContent = 'note: double click select a object';
     tipDiv.style.position = 'absolute';
     tipDiv.style.top = '10px';
     tipDiv.style.left = '10px';
@@ -148,12 +148,12 @@ async function loadPlyFile(filename) {
         const viewer = document.getElementById('viewer');
         const loadingDiv = document.createElement('div');
         loadingDiv.id = 'loading';
-        loadingDiv.textContent = '加载中...';
+        loadingDiv.textContent = 'loading...';
         loadingDiv.style.position = 'absolute';
         loadingDiv.style.top = '50%';
         loadingDiv.style.left = '50%';
         loadingDiv.style.transform = 'translate(-50%, -50%)';
-        loadingDiv.style.color = '#333';
+        loadingDiv.style.color = '#ffffff';
         loadingDiv.style.fontSize = '20px';
         viewer.appendChild(loadingDiv);
         
@@ -315,12 +315,12 @@ async function loadPlyFile(filename) {
                 const percent = (xhr.loaded / xhr.total) * 100;
                 const loadingElement = document.getElementById('loading');
                 if (loadingElement) {
-                    loadingElement.textContent = `加载中... ${Math.round(percent)}%`;
+                    loadingElement.textContent = `loading... ${Math.round(percent)}%`;
                 }
             },
             (error) => {
                 console.error('加载PLY文件失败:', error);
-                alert('加载PLY文件失败: ' + error.message);
+                alert('load PLY file error: ' + error.message);
                 
                 // 移除加载提示
                 const loadingElement = document.getElementById('loading');
@@ -331,7 +331,7 @@ async function loadPlyFile(filename) {
         );
     } catch (error) {
         console.error('加载文件失败:', error);
-        alert('加载文件失败: ' + error.message);
+        alert('load file error: ' + error.message);
     }
 }
 
@@ -714,8 +714,7 @@ function addAnnotation() {
         <td>${objectIds.join(', ')}</td>
         <td>${description}</td>
         <td>
-            <button class="view-btn" onclick="viewAnnotation(${annotations.length - 1})">查看</button>
-            <button class="delete-btn" onclick="deleteAnnotation(${annotations.length - 1})">删除</button>
+            <button class="view-btn" onclick="viewAnnotation(${annotations.length - 1})">show</button>
         </td>
     `;
     annotationsList.appendChild(tr);
@@ -738,14 +737,14 @@ function addAnnotation() {
     // 自动保存标注
     saveAnnotations().then(() => {
         // 更新成功提示
-        successDiv.textContent = '标注已添加并保存';
+        successDiv.textContent = 'Add an annotation OK and saveed.';
         // 2秒后移除提示
         setTimeout(() => {
             successDiv.remove();
         }, 2000);
     }).catch(() => {
         // 如果保存失败，更新提示
-        successDiv.textContent = '标注已添加，但保存失败';
+        successDiv.textContent = 'Add an annotation OK.';
         successDiv.style.background = 'rgba(255, 0, 0, 0.8)';
         // 3秒后移除提示
         setTimeout(() => {
@@ -756,6 +755,7 @@ function addAnnotation() {
 
 // 修改保存标注函数
 async function saveAnnotations() {
+    return;
     try {
         const response = await fetch(`/api/save-annotation/${currentFileName}`, {
             method: 'POST',
@@ -796,8 +796,7 @@ async function loadAnnotations(filename) {
                 <td>${annotation.object_ids.join(', ')}</td>
                 <td>${annotation.description}</td>
                 <td>
-                    <button class="view-btn" onclick="viewAnnotation(${index})">查看</button>
-                    <button class="delete-btn" onclick="deleteAnnotation(${index})">删除</button>
+                    <button class="view-btn" onclick="viewAnnotation(${index})">show</button>
                 </td>
             `;
             annotationsList.appendChild(tr);
@@ -830,7 +829,6 @@ async function deleteAnnotation(index) {
             <td>${annotation.description}</td>
             <td>
                 <button class="view-btn" onclick="viewAnnotation(${idx})">查看</button>
-                <button class="delete-btn" onclick="deleteAnnotation(${idx})">删除</button>
             </td>
         `;
         annotationsList.appendChild(tr);
