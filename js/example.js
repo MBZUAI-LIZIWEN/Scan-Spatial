@@ -134,6 +134,11 @@ async function loadPlyFile(filename) {
             scene.remove(currentMesh);
             currentMesh = null;
         }
+        // 清除之前选中的对象
+        if (selectedObject) {
+            scene.remove(selectedObject);
+            selectedObject = null;
+        }
         
         // 重置选中状态
         selectedObject = null;
@@ -952,12 +957,23 @@ function viewAnnotation(index) {
     const match = description.match(/\((-?\d+\.?\d*),\s*(-?\d+\.?\d*),\s*(-?\d+\.?\d*),\s*(-?\d+\.?\d*),\s*(-?\d+\.?\d*),\s*(-?\d+\.?\d*)\)/);
     
     if (0 && match) {
-        const cameraParams = match.slice(1, 5).map(Number);
+        const cameraParams = match.slice(1, 7).map(Number);
         console.log('解析出的相机参数:', cameraParams);
-        // 使用解析出的相机参数进行相机设置
-        camera.position.set(cameraParams[0], cameraParams[1], cameraParams[2]);
-        controls.target.set(cameraParams[3], cameraParams[4], cameraParams[5]);
+        
+        // 修改：这些参数可能是相机位置和目标点
+        // 假设前三个值是相机位置，后三个值是目标点
+        const targetPosition = new THREE.Vector3(cameraParams[0], cameraParams[1], cameraParams[2]);
+        const cameraPosition = new THREE.Vector3(cameraParams[3], cameraParams[4], cameraParams[5]);
+        
+        // 设置相机位置和朝向
+        camera.position.copy(cameraPosition);
+        controls.target.copy(targetPosition);
+        
+        // 更新控制器
         controls.update();
+        
+        console.log('相机位置已设置为:', cameraPosition);
+        console.log('目标点已设置为:', targetPosition);
     } else {
         console.warn('描述中没有找到有效的相机参数');
     }

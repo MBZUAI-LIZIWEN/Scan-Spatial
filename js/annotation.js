@@ -134,6 +134,10 @@ async function loadPlyFile(filename) {
             scene.remove(currentMesh);
             currentMesh = null;
         }
+        if (selectedObject) {
+            scene.remove(selectedObject);
+            selectedObject = null;
+        }
         
         // 重置选中状态
         selectedObject = null;
